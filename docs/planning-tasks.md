@@ -1,6 +1,24 @@
 # Project Planning Tasks - Phase 1: Research & Documentation
 
-## 🎯 Immediate Planning Tasks (Next 7 Days)
+## 🎯 Phase 0: Requirements Elicitation (Day 1)
+
+### Task 0: Stakeholder Interview & Vision Alignment
+**Priority**: Critical  
+**Estimated Time**: 2-3 hours  
+**Deliverable**: Completed `/docs/requirements-elicitation.md`
+
+**Key Questions**: See requirements elicitation document for full details
+- Target audience and market positioning decisions
+- Technical constraints, timeline, and delivery preferences  
+- Content depth and therapeutic boundary philosophy
+- Business model and monetization strategy
+- AI integration scope and philosophy
+
+**Success Criteria**: Clear answers that enable focused research and planning
+
+---
+
+## 🎯 Phase 1: Research & Documentation (Next 7 Days)
 
 ### Task 1: Market Research & Competitive Analysis
 **Priority**: High  
