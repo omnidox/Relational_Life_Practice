@@ -72,6 +72,27 @@ Capture article ideas and content opportunities from development work already co
 
 **Unique Angle**: Concrete workflow examples, not abstract theory
 
+### **Article 4: "When AI Collaboration Hits the Wall: Managing Claude's Context Limits"**
+**Status**: Ready to draft  
+**Platform**: Medium + Dev.to  
+**Estimated Time**: 3-4 hours  
+**Target Audience**: Developers, AI enthusiasts, product managers  
+**Target Length**: 1,800-2,200 words
+
+**Key Points to Cover**:
+- Real-world encounter with Claude's conversation length limits during product development
+- Strategic solution using Claude Projects for extended development workflows
+- Practical workflow design for AI-assisted development spanning multiple sessions
+- Professional lessons about planning AI collaboration for complex projects
+- Technical insights about context window management and tool limitations
+
+**Content Sources**:
+- `/docs/AI-Collaboration-Process/claude-conversation-limits-learning.md`
+- Our actual experience transitioning between chats
+- Research on Claude Projects cross-chat functionality
+
+**Unique Angle**: Honest account of hitting AI limitations and strategic problem-solving approach
+
 ---
 
 ## 🎥 **Video Content Opportunities**
