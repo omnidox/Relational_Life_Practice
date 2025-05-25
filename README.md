@@ -31,7 +31,6 @@ Building an AI-powered learning platform that makes relationship skills accessib
 
 - `/articles/` - Medium articles and blog posts  
 - `/media-scripts/` - YouTube scripts and presentation materials
-- `/research/` - Raw research notes and reference materials
 
 ## 🤝 Development Philosophy
 
