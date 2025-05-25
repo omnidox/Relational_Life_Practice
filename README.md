@@ -39,7 +39,7 @@ This project emphasizes **strategic AI-assisted development** - showcasing how d
 
 ## 🔗 Connect
 
-Project Lead: [Your Name]  
+Project Lead: Rafael Hidalgo  
 Educational Content: [Medium/Blog URL]  
 Development Updates: [Social Media/GitHub]
 
