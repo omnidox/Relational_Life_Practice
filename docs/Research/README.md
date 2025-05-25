@@ -11,7 +11,15 @@ This directory contains all research materials, analysis, and reference document
 
 ### **Source Materials**
 - **`source-materials/`** - Raw reference documents and original project materials
-  - `relational-life-starting-document.docx` - Original project inspiration and initial notes
+  - **`pdf books/`** - Terry Real's complete book collection (PDF format)
+    - `terry-real-new-rules-of-marriage.pdf` - Foundational RLT principles
+    - `terry-real-us-getting-past-you-and-me.pdf` - Most current relationship wisdom  
+    - `terry-real-how-can-i-get-through-to-you.pdf` - Communication tools and gender dynamics
+  - **`epub book version/`** - Backup formats for reference
+  - **`Duo_lingo research/`** - Comprehensive learning methodology analysis
+    - `duolingo-research-comprehensive.md` - Complete gamification and learning science research
+  - **`brainstorming project/`** - Original project inspiration materials
+    - `relational-life-starting-document.docx` - Initial project conception
 
 ## 🎯 **Research Status & Progress**
 
@@ -19,6 +27,9 @@ This directory contains all research materials, analysis, and reference document
 - ✅ Requirements elicitation and synthesis
 - ✅ Research framework establishment
 - ✅ Initial competitive landscape identification
+- ✅ Terry Real corpus acquisition (complete book collection)
+- ✅ Duolingo methodology comprehensive analysis
+- ✅ Professional source material organization
 
 ### **In Progress Research**
 - 🟡 Competitive analysis (Week 1 target)
@@ -47,6 +58,8 @@ This directory contains all research materials, analysis, and reference document
 ## 📊 **Research Deliverables**
 
 ### **Week 1 Targets**
+- [x] **Terry Real Corpus Acquisition** - Complete book collection in PDF format ✅
+- [x] **Duolingo Research** - Comprehensive learning methodology analysis ✅  
 - [ ] **Competitive Analysis Report** - Complete feature and business model comparison
 - [ ] **RLT Framework Summary** - Key concepts mapped to learning modules
 - [ ] **User Research Plan** - Interview guide and participant recruitment strategy

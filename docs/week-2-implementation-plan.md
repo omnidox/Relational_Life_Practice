@@ -30,18 +30,20 @@
 
 #### **Morning (4 hours): Terry Real Corpus Setup**
 **Task 1: Content Acquisition** (2 hours)
-- [ ] Purchase digital copies of Terry Real's books:
-  - "The New Rules of Marriage" 
-  - "Us: Getting Past You & Me to Build a More Loving Relationship"
-  - "Fierce Intimacy: Standing Up to One Another with Love"
-- [ ] Research copyright compliance and fair use guidelines
-- [ ] Document legal approach and attribution strategy
+- [x] Purchase digital copies of Terry Real's books:
+  - ✅ "The New Rules of Marriage" → `terry-real-new-rules-of-marriage.pdf`
+  - ✅ "Us: Getting Past You & Me to Build a More Loving Relationship" → `terry-real-us-getting-past-you-and-me.pdf`
+  - ✅ "How Can I Get Through to You?: Closing the Intimacy Gap Between Men and Women" → `terry-real-how-can-i-get-through-to-you.pdf`
+- [x] Research copyright compliance and fair use guidelines
+- [x] Document legal approach and attribution strategy
+- **Files Location**: `/docs/Research/source-materials/pdf books/`
 
 **Task 2: Content Processing Plan** (2 hours)  
-- [ ] Analyze book structure and key concepts
+- [x] Analyze book structure and key concepts (3 books acquired)
 - [ ] Create content extraction strategy (manual vs. OCR vs. API)
 - [ ] Plan knowledge base organization and chunking approach
 - [ ] Design RAG retrieval strategy for relationship scenarios
+- **Ready for Upload**: All 3 PDF books organized and accessible
 
 #### **Afternoon (4 hours): Technical Architecture**
 **Task 3: Technology Stack Finalization** (2 hours)
