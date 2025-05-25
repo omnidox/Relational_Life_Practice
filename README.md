@@ -22,14 +22,14 @@ Building an AI-powered learning platform that makes relationship skills accessib
 ## 📚 Documentation Structure
 
 - `/docs/PRD/` - Product Requirements Document
-- `/docs/SRS/` - Software Requirements Specification  
-- `/docs/SDD/` - Software Design Document
 - `/docs/Research/` - Market research, user studies, therapeutic framework analysis
 - `/docs/AI-Collaboration-Process/` - Documentation of human-AI development workflow
+- `/docs/templates/` - Reusable templates and frameworks
+- `/docs/archive/` - Previous versions and superseded documents
 
 ## 📝 Content Creation
 
-- `/articles/` - Medium articles and blog posts
+- `/articles/` - Medium articles and blog posts  
 - `/media-scripts/` - YouTube scripts and presentation materials
 - `/research/` - Raw research notes and reference materials
 
