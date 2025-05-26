@@ -9,8 +9,10 @@
 ## 🎯 **Key Feature Decisions**
 
 ### **Learning Architecture**
-- **Module → Lesson → AI Practice** progression structure
-- **RAG-powered content** from Terry Real's corpus (New Rules of Marriage, Us, Fierce Intimacy)
+- **12-Module Evidence-Based Structure** - Custom GPT consultation revealed optimal progression vs initial 5-module assumption
+- **MVP Priority**: Modules 1, 4, 6, 8 creating complete transformation loop (Recognize → Regulate → Speak → Repair)
+- **Module → Lesson → AI Practice** progression structure with Recognition → Application → Mastery framework
+- **RAG-powered content** from Terry Real's corpus with systematic curriculum architecture
 - **Real-life conversation analysis** - users can discuss past conversations for RLT-based improvement suggestions
 
 ### **User Experience**
@@ -36,10 +38,11 @@
 - **Portfolio updates**: Regular omnidox.github.io refreshes with project progress
 
 ## 🔄 **Validated Architectural Decisions**
-- **Single sophisticated agent** with RAG knowledge base
+- **Single sophisticated agent** with RAG knowledge base enhanced by Custom GPT curriculum architecture
 - **Web app** (React/Next.js) with mobile-first responsive design
 - **Freemium model** with usage analytics and subscription management
 - **Crisis prevention** integrated into AI conversation flow
+- **Evidence-based curriculum design** through strategic AI consultation demonstrating advanced development methodology
 
 ---
 

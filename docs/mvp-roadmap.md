@@ -9,17 +9,21 @@
 4. **AI Practice Conversations** - Roleplay scenarios with feedback
 5. **Progress Tracking** - User advancement and skill development
 
-### **Key RLT Concepts for MVP** (Based on Terry Real's Core Work)
-1. **"The Five Losing Strategies"** - Foundational relationship patterns
-2. **"Speaking from the Heart"** - Authentic communication skills
-3. **"Setting Boundaries with Love"** - Healthy limit-setting
-4. **"Managing Reactivity"** - Emotional regulation techniques
-5. **"Repair and Reconnection"** - Healing relationship ruptures
+### **Key RLT Concepts for MVP** (Evidence-Based Custom GPT Architecture)
+**MVP Priority Modules** (4 of 12 total):
+1. **"Introduction to Relational Empowerment"** - Core concepts and mindset foundation
+2. **"Shifting Out of Adaptive Child into Wise Adult"** - Self-regulation and emotional maturity
+3. **"Speaking Relationally: Assertiveness Without Harshness"** - Authentic communication without harm
+4. **"Repair: Owning Impact and Making Amends"** - Accountability and relationship healing
+
+**Complete Transformation Loop**: Recognize Pattern → Regulate Self → Speak from Wise Adult → Own Impact and Repair
 
 ### **Differentiating Features** (Portfolio Value-Add)
+- **Evidence-Based 12-Module Architecture** - Custom GPT curriculum consultation demonstrating strategic AI use
 - **Real-life conversation analysis** - Users input past conversations for RLT-based improvement
 - **RAG-powered responses** - AI grounded in Terry Real's actual methodology
 - **Crisis safety protocols** - Responsible AI for sensitive topics
+- **Sophisticated gamification** - "Truth Teller," "Cycle Breaker" achievements without harmful competition
 
 ## 🚀 **4-Week Sprint Plan**
 

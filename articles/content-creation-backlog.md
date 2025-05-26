@@ -5,72 +5,76 @@ Capture article ideas and content opportunities from development work already co
 
 ## 📝 **Ready-to-Draft Articles** (Based on Completed Work)
 
-### **Article 1: "From Idea to Action: Strategic AI Product Planning"**
+### **Article 1: "Strategic AI Consultation: Custom GPTs for Professional Curriculum Design"**
 **Status**: Ready to draft  
 **Platform**: Medium  
-**Estimated Time**: 3-4 hours  
-**Target Audience**: Developers, product managers, startup founders  
-**Target Length**: 1,500-2,000 words
-
-**Key Points to Cover**:
-- Our requirements elicitation process and why it matters
-- Human-AI collaboration in product planning  
-- Moving from scattered ideas to structured PRD approach
-- Benefits of documentation-first development for AI projects
-- Real examples from our planning sessions
-
-**Content Sources**:
-- `/docs/requirements-elicitation - Answers.md`
-- `/docs/requirements-synthesis.md`
-- Our planning methodology and decision-making process
-
-**Unique Angle**: How AI can accelerate product planning while humans maintain strategic control
-
----
-
-### **Article 2: "Why Clean Project Organization Matters for AI Development"**
-**Status**: Ready to draft  
-**Platform**: Medium + LinkedIn  
-**Estimated Time**: 2-3 hours  
-**Target Audience**: Solo developers, AI engineers, career changers  
-**Target Length**: 1,200-1,500 words  
-
-**Key Points to Cover**:
-- Our project cleanup process and rationale
-- Why scattered documentation kills productivity
-- Professional file organization for portfolio projects
-- Templates vs active documents vs archives
-- How organization showcases professional skills to employers
-
-**Content Sources**:
-- Our file reorganization process
-- Before/after project structure
-- Decision rationale for cleanup approach
-
-**Unique Angle**: Project organization as a professional skill that employers notice
-
----
-
-### **Article 3: "Human-AI Collaboration: A Real Development Workflow"**
-**Status**: Ready to draft  
-**Platform**: Medium + Dev.to  
-**Estimated Time**: 3-4 hours
-**Target Audience**: Developers, AI enthusiasts, tech leads  
+**Estimated Time**: 4-5 hours  
+**Target Audience**: Developers, product managers, educational technologists, startup founders  
 **Target Length**: 2,000-2,500 words
 
 **Key Points to Cover**:
-- Our actual collaboration process and roles
-- Where AI excels vs where human judgment is critical
-- Real examples of strategic AI usage in product development
-- Avoiding the "AI will replace developers" narrative
-- Practical tips for effective human-AI partnerships
+- Custom GPT creation process and strategic knowledge base curation
+- Evidence-based curriculum consultation vs assumption-driven design
+- 12-module vs 5-module recommendation and rationale analysis
+- Integration of therapeutic expertise with learning science methodology
+- AI-human collaboration workflow for complex educational design
+- Professional portfolio value of advanced AI utilization
 
 **Content Sources**:
-- `/docs/AI-Collaboration-Process/development-workflow.md`
-- Our actual collaboration sessions and decision points
-- Specific examples of AI assistance vs human leadership
+- `/docs/Curriculum-Design/chatgpt-curriculum-architect-session.md`
+- Custom GPT configuration and consultation process
+- Strategic insights and recommendations analysis
 
-**Unique Angle**: Concrete workflow examples, not abstract theory
+**Unique Angle**: Real-world case study of strategic AI consultation delivering expert-level educational architecture recommendations
+
+---
+
+### **Article 2: "From 5 to 12: How AI Consultation Changed Our Product Strategy"**
+**Status**: Ready to draft  
+**Platform**: Medium + LinkedIn  
+**Estimated Time**: 3-4 hours  
+**Target Audience**: Product managers, developers, startup founders, AI strategists  
+**Target Length**: 2,000-2,500 words  
+
+**Key Points to Cover**:
+- Initial 5-module assumption vs evidence-based 12-module recommendation
+- Custom GPT consultation process and knowledge synthesis methodology
+- Strategic decision-making: when to trust AI recommendations vs human intuition
+- Implementation implications of complex architecture changes
+- Professional lessons about evidence-based product development
+- Portfolio value of systematic AI collaboration
+
+**Content Sources**:
+- `/docs/Curriculum-Design/chatgpt-curriculum-architect-session.md`
+- Before/after architecture comparison and rationale
+- Strategic pivot decision-making process
+
+**Unique Angle**: Real-world example of strategic AI consultation fundamentally changing product architecture based on evidence rather than assumptions
+
+---
+
+### **Article 3: "Synthesizing Expertise: Terry Real + Duolingo via Custom GPT"**
+**Status**: Ready to draft  
+**Platform**: Medium + Dev.to  
+**Estimated Time**: 4-5 hours
+**Target Audience**: AI researchers, educational technologists, developers, curriculum designers  
+**Target Length**: 2,500-3,000 words
+
+**Key Points to Cover**:
+- Custom GPT knowledge base curation strategy and file selection rationale
+- Advanced AI collaboration workflow for complex knowledge synthesis
+- Terry Real's RLT methodology + Duolingo learning science integration approach
+- Specific examples of AI-generated curriculum architecture and design principles  
+- Quality assurance and validation of AI-generated educational content
+- Professional implications of AI-assisted expert knowledge synthesis
+
+**Content Sources**:
+- `/docs/Curriculum-Design/chatgpt-curriculum-architect-session.md`
+- `/docs/Research/source-materials/Duo_lingo research/duolingo-research-comprehensive.md`
+- Custom GPT configuration and consultation methodology
+- Detailed curriculum specifications and learning architecture
+
+**Unique Angle**: Technical deep-dive into advanced knowledge synthesis via Custom GPT with concrete examples of professional-grade educational design
 
 ### **Article 4: "When AI Collaboration Hits the Wall: Managing Claude's Context Limits"**
 **Status**: Ready to draft  

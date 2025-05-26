@@ -1,10 +1,11 @@
 # Product Requirements Document
 ## Relational Life Practice AI Learning Platform
 
-**Version**: 1.0  
-**Date**: May 24, 2025  
+**Version**: 1.1  
+**Date**: May 25, 2025 (Updated)  
 **Author**: Rafael Hidalgo  
-**Status**: Final Draft  
+**Status**: Updated with Custom GPT Curriculum Architecture  
+**Major Update**: 12-module evidence-based structure, MVP priority modules, enhanced gamification strategy  
 
 ---
 
@@ -78,12 +79,25 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
 
 #### **2. Learning Module Structure**
 **Architecture**: Module → Lesson → AI Practice
-- **5 Core RLT Modules** for MVP:
-  1. "The Five Losing Strategies" (foundational relationship patterns)
-  2. "Speaking from the Heart" (authentic communication)
-  3. "Setting Boundaries with Love" (healthy limit-setting)
-  4. "Managing Reactivity" (emotional regulation)
-  5. "Repair and Reconnection" (healing relationship ruptures)
+- **12 Evidence-Based RLT Modules** (Custom GPT Curriculum Architecture):
+
+**Foundational Tier (MVP Priority)**:
+  1. "Introduction to Relational Empowerment" (Core concepts and mindset)
+  4. "Shifting Out of Adaptive Child into Wise Adult" (Self-regulation foundation)
+  6. "Speaking Relationally: Assertiveness Without Harshness" (Core communication)
+  8. "Repair: Owning Impact and Making Amends" (Accountability mastery)
+
+**Complete 12-Module Progression**:
+  2. "Seeing the Relational Grid: From You & Me to Us" (Mindset shift)
+  3. "Recognizing Psychological Patriarchy & Gendered Pain" (Systemic awareness)
+  5. "Relational Esteem & Inner Worth" (Foundation building)
+  7. "Listening Relationally: Attunement & Empathy" (Reception skills)
+  9. "Negotiation, Boundaries, and Full-Respect Living" (Advanced skills)
+  10. "Fierce Intimacy & Conflict as Opportunity" (Mastery level)
+  11. "Sustaining Connection Through Daily Practice" (Integration)
+  12. "Legacy & Intergenerational Healing" (Transformation)
+
+**Learning Loop**: Recognition → Application → Mastery per module
 
 **Lesson Components**:
 - **Educational content** (5-7 minutes): Core concepts with examples
@@ -105,10 +119,13 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
 - **Practice opportunities**: Generate scenarios based on user's real experiences
 
 #### **5. Progress Tracking & Gamification**
-- **Skill progression**: Visual advancement through RLT competencies
-- **Practice streaks**: Duolingo-style engagement mechanics
-- **Achievement system**: Unlock new modules and advanced scenarios
-- **Reflection journal**: Track insights and real-world applications
+- **Relational Skills Tree**: XP tracks across Speaking, Listening, Boundaries, Repair competencies
+- **Achievement Badge System**: "Truth Teller," "Cycle Breaker," "Repair Master," "Pattern Breaker"
+- **Personal Progress Tracking**: Individual advancement without harmful competition
+- **Epic Meaning Focus**: Family transformation, legacy healing, generational pattern breaking
+- **Practice Streaks**: Gentle daily engagement encouragement
+- **Reflection Rewards**: XP for vulnerability and self-awareness moments
+- **Skill Progression Metrics**: Recognition → Application → Transfer → Sustained Use
 
 ### **Future Features (Post-MVP)**
 - **Couples mode**: Shared learning experiences and practice
@@ -132,12 +149,15 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
 - **Authentication**: NextAuth.js or similar
 - **Deployment**: Vercel, Netlify, or similar JAMstack platform
 
-### **AI Architecture: Single Sophisticated Agent**
-- **RAG Knowledge Base**: Terry Real's books + curated RLT content
-- **Conversation Engine**: Context-aware dialogue management
+### **AI Architecture: Single Sophisticated Agent with Custom GPT Integration**
+- **RAG Knowledge Base**: Terry Real's books + curated RLT content + Custom GPT curriculum architecture
+- **Conversation Engine**: Context-aware dialogue management with 12-module progression logic
+- **Custom GPT Consultation**: Strategic curriculum design and content generation capabilities
+- **Practice Scenarios**: AI roleplay for tone regulation, vulnerability expression, repair conversations
 - **Safety Layer**: Crisis detection and appropriate response protocols
-- **Personalization**: User preference learning and adaptation
-- **Analytics**: Conversation quality and learning effectiveness tracking
+- **Personalization**: User preference learning and relational blind spot identification
+- **Assessment Integration**: Recognition → Application → Transfer → Sustained Use tracking
+- **Analytics**: Conversation quality and learning effectiveness measurement
 
 ### **Performance Requirements**
 - **Response Time**: <2 seconds for AI conversations
