@@ -1,11 +1,11 @@
 # Product Requirements Document
 ## Relational Life Practice AI Learning Platform
 
-**Version**: 1.1  
-**Date**: May 25, 2025 (Updated)  
+**Version**: 2.0  
+**Date**: May 25, 2025 (Major Update)  
 **Author**: Rafael Hidalgo  
-**Status**: Updated with Custom GPT Curriculum Architecture  
-**Major Update**: 12-module evidence-based structure, MVP priority modules, enhanced gamification strategy  
+**Status**: Complete Curriculum Architecture Integration  
+**Major Update**: Complete 12-module evidence-based structure, all technical specifications, advanced gamification strategy  
 
 ---
 
@@ -87,15 +87,16 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
   5. "Relational Esteem & Inner Worth" *(1.2 hours - 4 lessons)*
   6. "Speaking Relationally: Assertiveness Without Harshness" *(1.5 hours - 5 lessons)*
 
-**Complete 12-Module Progression**:
-  2. "Seeing the Relational Grid: From You & Me to Us" (Mindset shift)
-  3. "Recognizing Psychological Patriarchy & Gendered Pain" (Systemic awareness)
-  5. "Relational Esteem & Inner Worth" (Foundation building)
-  7. "Listening Relationally: Attunement & Empathy" (Reception skills)
-  9. "Negotiation, Boundaries, and Full-Respect Living" (Advanced skills)
-  10. "Fierce Intimacy & Conflict as Opportunity" (Mastery level)
-  11. "Sustaining Connection Through Daily Practice" (Integration)
-  12. "Legacy & Intergenerational Healing" (Transformation)
+**Complete 12-Module Progression** (11-15 hours total content):
+  2. "Seeing the Relational Grid: From You & Me to Us" *(1.25 hours)*
+  3. "Recognizing Psychological Patriarchy & Gendered Pain" *(1.5-2 hours)*
+  5. "Relational Esteem & Inner Worth" *(1.2 hours)*
+  7. "Listening Relationally: Attunement & Empathy" *(1 hour)*
+  8. "Repair: Owning Impact and Making Amends" *(1.5-2 hours)*
+  9. "Negotiation, Boundaries, and Full-Respect Living" *(1.25 hours)*
+  10. "Fierce Intimacy & Conflict as Opportunity" *(2 hours)*
+  11. "Sustaining Connection Through Daily Practice" *(1.25 hours)*
+  12. "Legacy & Intergenerational Healing" *(1.5-2 hours)*
 
 **Learning Loop**: Recognition → Application → Mastery per module
 
@@ -106,13 +107,16 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
 - **Practice setup**: Introduction to AI roleplay scenario
 
 #### **3. AI-Powered Practice Conversations**
-- **RAG-enhanced AI agent** grounded in Terry Real's methodology with detailed curriculum architecture
-- **Sophisticated scenario library**: "Triggered by Tone," "Feeling Ignored," "One-Up Moment," "Silent Treatment" 
-- **5-Step Speech Formula Integration**: Interactive sentence building for relational communication
-- **Tone simulation capability**: AI can demonstrate dismissive patterns for regulation practice
-- **Real-time feedback**: Empathetic responses with Adaptive Child vs Wise Adult recognition
-- **Progress tracking**: Recognition → Application → Transfer → Sustained Use skill development
-- **Conversation memory**: AI remembers user patterns and relational growth over time
+- **RAG-enhanced AI agent** grounded in Terry Real's methodology with complete 12-module curriculum architecture
+- **Comprehensive scenario library**: 15+ specific practice situations from basic regulation to advanced conflict mastery
+  - **Foundational**: "Triggered by Tone," "Silent Treatment," "One-Up Moment"
+  - **Communication**: "Feeling Ignored," "They're Upset With You," "They Want More"
+  - **Advanced**: "I Snapped at You," "Historical Wounding," "Escalation Cycle"
+  - **Mastery**: "From Clash to Closeness," "Breaking the Chain," "Legacy Letter"
+- **Interactive Tool Integration**: 5-Step Speech Builder, Apology Builder, Conflict Lab, Legacy Map
+- **Sophisticated AI capabilities**: Tone simulation, empathic attunement, regulation coaching, repair scaffolding
+- **Progress tracking**: Recognition → Application → Transfer → Sustained Use across all 12 modules
+- **Conversation memory**: AI remembers user patterns, growth areas, and relational development over time
 
 #### **4. Real-Life Conversation Analysis** (Unique Differentiator)
 - **User input**: Describe past conversations or challenging interactions
@@ -121,13 +125,16 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
 - **Practice opportunities**: Generate scenarios based on user's real experiences
 
 #### **5. Progress Tracking & Gamification**
-- **Relational Skills Tree**: XP tracks across Speaking, Listening, Boundaries, Repair competencies
-- **Achievement Badge System**: "Truth Teller," "Cycle Breaker," "Repair Master," "Pattern Breaker"
-- **Personal Progress Tracking**: Individual advancement without harmful competition
-- **Epic Meaning Focus**: Family transformation, legacy healing, generational pattern breaking
-- **Practice Streaks**: Gentle daily engagement encouragement
-- **Reflection Rewards**: XP for vulnerability and self-awareness moments
-- **Skill Progression Metrics**: Recognition → Application → Transfer → Sustained Use
+- **Complete Badge System**: 12 unique achievements from "Relational Rookie" to "Cycle Breaker"
+  - **Foundation**: "Relational Rookie," "Team Player," "Pattern Breaker," "Self-Regulator"
+  - **Communication**: "Centered Self," "Truth Teller," "Heart Listener"
+  - **Advanced**: "Repair Master," "Boundary Architect," "Intimacy Alchemist"
+  - **Integration**: "Consistency Creator," "Cycle Breaker"
+- **Multi-Tier XP System**: Tracks across Speaking, Listening, Boundaries, Repair, Conflict Mastery competencies
+- **Interactive Tool Unlocks**: Speech Builder, Apology Builder, Conflict Lab, Legacy Map progression
+- **Daily Engagement Mechanics**: Connection Score tracking, streak bonuses, reflection rewards
+- **Epic Meaning Integration**: Family transformation, legacy healing, generational pattern breaking focus
+- **Assessment Integration**: Recognition → Application → Transfer → Sustained Use tracking across all modules
 
 ### **Future Features (Post-MVP)**
 - **Couples mode**: Shared learning experiences and practice
