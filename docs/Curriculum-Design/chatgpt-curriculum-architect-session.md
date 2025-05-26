@@ -156,3 +156,71 @@
 
 *Session documented by Rafael Hidalgo | Relational Life Practice AI Learning Platform*  
 *Custom GPT: "Relational Learning Architect" | Knowledge Base: Terry Real + Duolingo Research*
+
+---
+
+## 📚 **Detailed Module Specifications (Modules 4-6 - Session 2)**
+
+### **Module 4: Shifting Out of Adaptive Child into Wise Adult**
+- **Duration**: 5 lessons (~15 min each), 1.25 hours total
+- **Objectives**: Recognize Adaptive Child mode, transition to Wise Adult, develop pause-and-choose capacity
+- **Key Concepts**: Adaptive Child = protective but sabotaging coping, Wise Adult = present-day nuanced self, "no redeeming value in harshness"
+- **Prerequisites**: Us vs You & Me understanding, basic emotional self-awareness
+- **Practice**: "Triggered by Tone," "Silent Treatment" scenarios for regulation practice
+- **Gamification**: "Self-Regulator" badge, "Wise Tracker" journal prompts unlock
+
+### **Module 5: Relational Esteem & Inner Worth**
+- **Duration**: 4 lessons (~15-20 min each), 1.2 hours total
+- **Objectives**: Differentiate relational vs narcissistic esteem, understand shame/overcompensation cycles, practice grounded non-defensive communication
+- **Key Concepts**: "Relational esteem = cherishing self AND others," superiority/inferiority traps, vulnerability as strength
+- **Prerequisites**: Adaptive Child awareness, Us mindset exposure
+- **Practice**: "One-Up Moment," "I'm Not Good Enough" scenarios for esteem calibration
+- **Gamification**: "Centered Self" badge, "Mirror Moments" reflections unlock
+
+### **Module 6: Speaking Relationally: Assertiveness Without Harshness**
+- **Duration**: 5 lessons (~15-18 min each), 1.5 hours total
+- **Objectives**: Practice relational truth-telling, use 5-Step Speech Formula, own experience while making space
+- **Key Concepts**: Clean vs dirty fighting, "truth not license for cruelty," 5-Step Formula: feeling/made up/want/afraid of/need from you
+- **Prerequisites**: Self-regulation capacity, emotional vocabulary, esteem grounding
+- **Practice**: "Feeling Ignored," "Frustrated With Help" scenarios using speech formula
+- **Gamification**: "Truth Teller" badge, "Speech Builder" tool unlock, journaling streak bonus
+
+---
+
+## 💡 **Key Strategic Insights from Modules 4-6**
+
+### **Progressive Skill Building Architecture**
+- **Module 4**: Foundation self-regulation (Adaptive Child → Wise Adult)
+- **Module 5**: Inner foundation (relational esteem vs narcissistic patterns)
+- **Module 6**: External expression (assertiveness with relational integrity)
+
+### **Technical Implementation Requirements**
+- **AI Tone Simulation**: Module 4 requires dismissive tone recognition and response
+- **5-Step Speech Builder**: Module 6 needs interactive sentence construction tool
+- **Regulation Tracking**: Pause-and-shift measurement for skill progression
+- **Esteem Calibration**: Daily reflection prompts with AI-guided feedback
+
+### **Assessment Framework Integration**
+- **Recognition**: Identify Adaptive Child vs Wise Adult patterns
+- **Application**: Use 5-Step Formula in guided scenarios
+- **Transfer**: Navigate complex emotional situations with regulation
+- **Sustained Use**: Maintain relational integrity under stress
+
+---
+
+## 🔄 **Next Session Planning**
+
+### **Modules 7-9 to Continue**
+- **Module 7**: Listening Relationally: Attunement & Empathy
+- **Module 8**: Repair: Owning Impact and Making Amends  
+- **Module 9**: Negotiation, Boundaries, and Full-Respect Living
+
+### **Implementation Planning Options**
+- Continue systematic module breakdown OR
+- Create sample lesson interface mockup OR
+- Begin technical implementation specifications
+
+---
+
+*Modules 4-6 specifications documented | Custom GPT: "Relational Learning Architect"*  
+*Total curriculum progress: 6 of 12 modules detailed (50% complete)*

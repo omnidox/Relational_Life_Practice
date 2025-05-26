@@ -21,11 +21,12 @@ Capture article ideas and content opportunities from development work already co
 - Professional portfolio value of advanced AI utilization
 
 **Content Sources**:
-- `/docs/Curriculum-Design/chatgpt-curriculum-architect-session.md`
-- Custom GPT configuration and consultation process
-- Strategic insights and recommendations analysis
+- `/docs/Curriculum-Design/chatgpt-curriculum-architect-session.md` (Modules 1-6 detailed)
+- Custom GPT configuration and systematic consultation process
+- Strategic insights and evidence-based recommendations analysis
+- Specific examples: 5-Step Speech Formula, Adaptive Child vs Wise Adult scenarios
 
-**Unique Angle**: Real-world case study of strategic AI consultation delivering expert-level educational architecture recommendations
+**Unique Angle**: Real-world case study of strategic AI consultation delivering expert-level educational architecture with specific technical implementation requirements and measurable learning outcomes
 
 ---
 

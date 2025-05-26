@@ -81,11 +81,11 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
 **Architecture**: Module → Lesson → AI Practice
 - **12 Evidence-Based RLT Modules** (Custom GPT Curriculum Architecture):
 
-**Foundational Tier (MVP Priority)**:
-  1. "Introduction to Relational Empowerment" (Core concepts and mindset)
-  4. "Shifting Out of Adaptive Child into Wise Adult" (Self-regulation foundation)
-  6. "Speaking Relationally: Assertiveness Without Harshness" (Core communication)
-  8. "Repair: Owning Impact and Making Amends" (Accountability mastery)
+**Foundational Tier (MVP Priority - Detailed Specifications)**:
+  1. "Introduction to Relational Empowerment" *(1 hour - 4 lessons)*
+  4. "Shifting Out of Adaptive Child into Wise Adult" *(1.25 hours - 5 lessons)*
+  5. "Relational Esteem & Inner Worth" *(1.2 hours - 4 lessons)*
+  6. "Speaking Relationally: Assertiveness Without Harshness" *(1.5 hours - 5 lessons)*
 
 **Complete 12-Module Progression**:
   2. "Seeing the Relational Grid: From You & Me to Us" (Mindset shift)
@@ -106,11 +106,13 @@ Users engage "casually, consistently, and with intrinsic motivation" to develop 
 - **Practice setup**: Introduction to AI roleplay scenario
 
 #### **3. AI-Powered Practice Conversations**
-- **RAG-enhanced AI agent** grounded in Terry Real's methodology
-- **Contextual scenarios**: Realistic relationship situations requiring RLT skills
-- **Real-time feedback**: Empathetic responses and gentle skill coaching
-- **Progress tracking**: Skill development across different relational areas
-- **Conversation memory**: AI remembers user patterns and preferences
+- **RAG-enhanced AI agent** grounded in Terry Real's methodology with detailed curriculum architecture
+- **Sophisticated scenario library**: "Triggered by Tone," "Feeling Ignored," "One-Up Moment," "Silent Treatment" 
+- **5-Step Speech Formula Integration**: Interactive sentence building for relational communication
+- **Tone simulation capability**: AI can demonstrate dismissive patterns for regulation practice
+- **Real-time feedback**: Empathetic responses with Adaptive Child vs Wise Adult recognition
+- **Progress tracking**: Recognition → Application → Transfer → Sustained Use skill development
+- **Conversation memory**: AI remembers user patterns and relational growth over time
 
 #### **4. Real-Life Conversation Analysis** (Unique Differentiator)
 - **User input**: Describe past conversations or challenging interactions

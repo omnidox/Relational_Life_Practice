@@ -10,13 +10,13 @@
 5. **Progress Tracking** - User advancement and skill development
 
 ### **Key RLT Concepts for MVP** (Evidence-Based Custom GPT Architecture)
-**MVP Priority Modules** (4 of 12 total):
-1. **"Introduction to Relational Empowerment"** - Core concepts and mindset foundation
-2. **"Shifting Out of Adaptive Child into Wise Adult"** - Self-regulation and emotional maturity
-3. **"Speaking Relationally: Assertiveness Without Harshness"** - Authentic communication without harm
-4. **"Repair: Owning Impact and Making Amends"** - Accountability and relationship healing
+**MVP Priority Modules** (4 of 12 total - ~5-6 hours content):
+1. **"Introduction to Relational Empowerment"** *(1 hour)* - Core concepts and mindset foundation
+2. **"Shifting Out of Adaptive Child into Wise Adult"** *(1.25 hours)* - Self-regulation and emotional maturity
+3. **"Relational Esteem & Inner Worth"** *(1.2 hours)* - Inner foundation vs narcissistic patterns
+4. **"Speaking Relationally: Assertiveness Without Harshness"** *(1.5 hours)* - 5-Step Formula communication
 
-**Complete Transformation Loop**: Recognize Pattern → Regulate Self → Speak from Wise Adult → Own Impact and Repair
+**Complete Transformation Loop**: Recognize Pattern → Regulate Self → Ground Esteem → Speak from Wise Adult
 
 ### **Differentiating Features** (Portfolio Value-Add)
 - **Evidence-Based 12-Module Architecture** - Custom GPT curriculum consultation demonstrating strategic AI use

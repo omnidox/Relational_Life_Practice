@@ -13,11 +13,11 @@
 1. **Introduction to Relational Empowerment** - Core concepts and mindset *(1 hour)*
 2. **Seeing the Relational Grid: From You & Me to Us** - Mindset shift *(1.25 hours)*
 3. **Recognizing Psychological Patriarchy & Gendered Pain** - Systemic awareness *(1.5-2 hours)*
-4. **Shifting Out of Adaptive Child into Wise Adult** - Self-regulation foundation *(TBD)*
+4. **Shifting Out of Adaptive Child into Wise Adult** - Self-regulation foundation *(1.25 hours)*
 
 ### **Communication Tier (Modules 5-7)**
-5. **Relational Esteem & Inner Worth** - Foundation building *(TBD)*
-6. **Speaking Relationally: Assertiveness Without Harshness** - Core communication *(TBD)*
+5. **Relational Esteem & Inner Worth** - Foundation building *(1.2 hours)*
+6. **Speaking Relationally: Assertiveness Without Harshness** - Core communication *(1.5 hours)*
 7. **Listening Relationally: Attunement & Empathy** - Reception skills *(TBD)*
 
 ### **Advanced Skills Tier (Modules 8-10)**
@@ -34,11 +34,12 @@
 ## 🚀 **MVP Implementation Priority**
 
 ### **Phase 1: Core Transformation Loop (4 Modules)**
-1. **Module 1**: Introduction to Relational Empowerment
-4. **Module 4**: Shifting Out of Adaptive Child into Wise Adult  
-6. **Module 6**: Speaking Relationally: Assertiveness Without Harshness
-8. **Module 8**: Repair: Owning Impact and Making Amends
+1. **Module 1**: Introduction to Relational Empowerment *(1 hour)*
+4. **Module 4**: Shifting Out of Adaptive Child into Wise Adult *(1.25 hours)*  
+6. **Module 6**: Speaking Relationally: Assertiveness Without Harshness *(1.5 hours)*
+8. **Module 8**: Repair: Owning Impact and Making Amends *(TBD)*
 
+**Total MVP Time Commitment**: ~4-5 hours of core learning content
 **Rationale**: Creates complete "Recognize → Regulate → Speak → Repair" transformation cycle
 
 ---
@@ -60,11 +61,12 @@
 ## 🤖 **AI Conversation Integration**
 
 ### **Core Practice Scenarios**
-1. **Tone Regulation**: Clean truth vs Adaptive Child reaction
-2. **Vulnerability Expression**: Need requests without blame
-3. **Repair Conversations**: Full accountability using RLT repair model
-4. **Boundary Setting**: Respectful limit-setting practice
-5. **Real-Time Pattern Recognition**: Pause, identify, redirect to Wise Adult
+1. **Tone Regulation**: "Triggered by Tone" - Clean truth vs Adaptive Child reaction
+2. **Vulnerability Expression**: "Feeling Ignored" - Need requests using 5-Step Formula without blame
+3. **Repair Conversations**: Full accountability using RLT repair model *(Module 8 TBD)*
+4. **Boundary Setting**: Respectful limit-setting practice *(Module 9 TBD)*
+5. **Real-Time Pattern Recognition**: "Silent Treatment" - Pause, identify, redirect to Wise Adult
+6. **Esteem Calibration**: "One-Up Moment" - Recognize superiority and shift to humility
 
 ### **Assessment Framework**
 - **Recognition**: Can identify RLT concepts in scenarios
