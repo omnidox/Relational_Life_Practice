@@ -204,7 +204,6 @@ erDiagram
         timestamp completed_at
         timestamp updated_at
     }
-```
     
     Conversations {
         uuid id PK
