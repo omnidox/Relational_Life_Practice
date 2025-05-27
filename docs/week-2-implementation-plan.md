@@ -5,6 +5,8 @@
 **Target Week**: Week 2 of 4-week MVP  
 **Phase**: Core Development - RAG Implementation
 
+**Document Role**: Detailed phase-specific task breakdown - Reports to Project Dashboard
+
 ---
 
 ## 🎯 **Week 2 Objectives**
@@ -49,20 +51,24 @@
 - **Files Location**: `/docs/Curriculum-Design/` with complete consultation logs and technical specs
 
 #### **Afternoon (4 hours): Technical Architecture**
-**Task 3: RAG System Implementation** (4 hours)
-- [ ] Configure vector database with optimized Terry Real content processing
+#### **Task 3: Technical Specification Document (TSD) Creation** ✅ **UPDATED APPROACH**  
+- [ ] Create comprehensive Technical Specification Document combining SRS + SDD elements
+- [ ] Leverage Custom GPT consultation outputs for detailed technical requirements
+- [ ] Define system architecture supporting complete 12-module curriculum
+- [ ] Specify database schema, API design, and AI/RAG implementation details
+- [ ] Document security requirements and compliance guidelines
+- **Approach**: Streamlined documentation optimized for MVP timeline
+- **Dependencies**: Finalized PRD ✅ Ready
+- **Deliverable**: Implementation-ready technical specification
+
+**Task 4: RAG System Implementation** (4 hours)
+- [ ] Configure vector database with optimized Terry Real content processing  
 - [ ] Implement 12-module curriculum structure in knowledge base organization
 - [ ] Create AI conversation scenarios supporting 15+ practice situations
 - [ ] Test retrieval quality with complex relationship skill queries
 - [ ] Integrate gamification progress tracking with RAG responses
-- **Dependencies**: Complete curriculum architecture ✅ READY
-- **Deliverable**: Working RAG system supporting complete learning progression
-
-**Task 4: Development Environment Setup** (2 hours)
-- [ ] Initialize Next.js project with TypeScript
-- [ ] Configure database connections and environment variables
-- [ ] Set up development, staging, and production environments
-- [ ] Create initial project structure and folder organization
+- **Dependencies**: Technical Specification Document ⏳ Pending
+- **Deliverable**: Working RAG system implementing TSD specifications
 
 ### **Tuesday: RAG Implementation Core**
 

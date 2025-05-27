@@ -16,26 +16,18 @@ This document outlines our systematic approach to building the Relational Life P
 - Success Metrics & KPIs
 - Go-to-Market Strategy
 
-### 2. Software Requirements Specification (SRS)
-**Purpose**: Technical translation of business requirements  
-**Stakeholders**: Development team, QA, architects  
+### 2. Technical Specification Document (TSD) - **STREAMLINED APPROACH**
+**Purpose**: Combined SRS + SDD - Technical requirements and architectural blueprint  
+**Rationale**: MVP timeline benefits from streamlined documentation; Custom GPT consultation already provides detailed technical requirements  
+**Stakeholders**: Development team, QA, architects, future maintainers  
 **Key Sections**:
-- Functional Requirements
-- Non-Functional Requirements (Performance, Security, Scalability)
-- User Interface Requirements
-- Integration Requirements
-- Compliance & Ethical Guidelines
-
-### 3. Software Design Document (SDD)
-**Purpose**: Architectural blueprint and implementation guidance  
-**Stakeholders**: Developers, DevOps, future maintainers  
-**Key Sections**:
-- System Architecture
-- Component Design
-- Data Models & Database Schema
-- API Specifications
-- Deployment Architecture
-- Security Design
+- Functional & Non-Functional Requirements
+- System Architecture & Component Design
+- Database Schema & Data Models
+- API Specifications & Integration Requirements
+- AI/RAG Implementation Details
+- Security Design & Compliance Guidelines
+- Deployment Architecture & Performance Requirements
 
 ## 🔄 Research & Documentation Process
 
@@ -45,24 +37,24 @@ This document outlines our systematic approach to building the Relational Life P
 3. **Therapeutic Framework Research** - Deep dive into Terry Real's RLT methodology
 4. **Technical Feasibility Study** - Evaluate AI/ML capabilities and constraints
 
-### Phase 2: Requirements Definition (Week 1-2)
-1. **Draft PRD** - Initial product vision and feature definition
-2. **Stakeholder Review** - Validate assumptions and priorities
-3. **Technical Requirements** - Define SRS based on PRD insights
-4. **Architecture Planning** - Begin SDD with high-level system design
+### Phase 2: Requirements & Technical Specification (Week 1-2)
+1. **Finalize PRD** - Complete product vision with curriculum architecture integration
+2. **Stakeholder Review** - Validate assumptions and priorities  
+3. **Comprehensive Technical Specification** - Combined SRS + SDD leveraging Custom GPT consultation outputs
+4. **Architecture Validation** - Ensure technical approach supports complete 12-module curriculum
 
-### Phase 3: Design & Validation (Week 2-3)
-1. **Detailed Technical Design** - Complete SDD with implementation specifics
-2. **Prototype Validation** - Build proof-of-concept for core interactions
+### Phase 3: Implementation Planning & Validation (Week 2-3)
+1. **Technical Specification Validation** - Review TSD for completeness and feasibility
+2. **Prototype Development** - Build proof-of-concept for core AI interactions  
 3. **Risk Assessment** - Identify technical, ethical, and business risks
-4. **Implementation Roadmap** - Break down development into sprints
+4. **Implementation Roadmap** - Break down development into sprints based on TSD
 
 ## 📊 Success Criteria
 
-- **PRD**: Clear product vision with measurable success metrics
-- **SRS**: Comprehensive requirements covering all user scenarios
-- **SDD**: Implementation-ready architecture with clear component boundaries
-- **Research**: Evidence-based decisions for all major design choices
+- **PRD**: Clear product vision with complete 12-module curriculum integration and measurable success metrics
+- **TSD**: Comprehensive technical specification combining requirements and design, leveraging Custom GPT consultation outputs  
+- **Research**: Evidence-based decisions for all major design choices with strategic AI consultation methodology documented
+- **Implementation Readiness**: Technical specification detailed enough for immediate development start
 
 ## 🎯 Next Steps
 
