@@ -541,40 +541,90 @@ graph TD
 ### **React Component Hierarchy**
 
 ```mermaid
-graph TD
-    A[App Layout] --> B[Authentication Provider]
-    B --> C[User Dashboard]
-    B --> D[Learning Module]
-    B --> E[AI Conversation]
-    B --> F[Interactive Tools]
-    B --> G[Progress Tracking]
+graph TB
+    subgraph "Core Application"
+        A[App Layout]
+        B[Authentication Provider]
+    end
     
-    C --> H[Module Grid]
-    C --> I[Progress Overview]
-    C --> J[Badge Collection]
-    C --> K[Recent Activity]
+    subgraph "Main Features"
+        C[User Dashboard]
+        D[Learning Module]
+        E[AI Conversation]
+        F[Interactive Tools]
+        G[Progress Tracking]
+    end
     
-    D --> L[Lesson Content]
-    D --> M[Knowledge Check]
-    D --> N[Reflection Prompts]
-    D --> O[Practice Scenario Launch]
+    subgraph "Dashboard Components"
+        H[Module Grid]
+        I[Progress Overview]
+        J[Badge Collection]
+        K[Recent Activity]
+    end
     
-    E --> P[Conversation Interface]
-    E --> Q[Message Input]
-    E --> R[AI Response Display]
-    E --> S[Conversation History]
-    E --> T[Feedback Panel]
+    subgraph "Learning Components"
+        L[Lesson Content]
+        M[Knowledge Check]
+        N[Reflection Prompts]
+        O[Practice Scenario Launch]
+    end
     
-    F --> U[Speech Builder]
-    F --> V[Apology Builder]
-    F --> W[Conflict Lab]
-    F --> X[Legacy Map]
-    F --> Y[Relational Plan]
+    subgraph "Conversation Components"
+        P[Conversation Interface]
+        Q[Message Input]
+        R[AI Response Display]
+        S[Conversation History]
+        T[Feedback Panel]
+    end
     
-    G --> Z[XP Visualization]
-    G --> AA[Badge Progress]
-    G --> BB[Module Completion]
-    G --> CC[Skill Assessment]
+    subgraph "Interactive Tools"
+        U[Speech Builder]
+        V[Apology Builder]
+        W[Conflict Lab]
+        X[Legacy Map]
+        Y[Relational Plan]
+    end
+    
+    subgraph "Progress Components"
+        Z[XP Visualization]
+        AA[Badge Progress]
+        BB[Module Completion]
+        CC[Skill Assessment]
+    end
+    
+    A --> B
+    B --> C
+    B --> D
+    B --> E
+    B --> F
+    B --> G
+    
+    C -.-> H
+    C -.-> I
+    C -.-> J
+    C -.-> K
+    
+    D -.-> L
+    D -.-> M
+    D -.-> N
+    D -.-> O
+    
+    E -.-> P
+    E -.-> Q
+    E -.-> R
+    E -.-> S
+    E -.-> T
+    
+    F -.-> U
+    F -.-> V
+    F -.-> W
+    F -.-> X
+    F -.-> Y
+    
+    G -.-> Z
+    G -.-> AA
+    G -.-> BB
+    G -.-> CC
 ```
 
 ### **Key Component Specifications**
