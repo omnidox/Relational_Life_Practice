@@ -33,15 +33,23 @@ A React/Next.js web application with PostgreSQL database, vector-based RAG syste
 - **Security**: Multi-layer security with encrypted data and secure authentication
 - **Maintainability**: Clean separation between presentation, business logic, and data layers
 
-### **Technology Stack**
+### **Technology Stack (Cost-Optimized)**
 - **Frontend**: React 18 with Next.js 14 (App Router)
 - **Backend**: Next.js API Routes with TypeScript
 - **Database**: PostgreSQL 15+ with Prisma ORM
-- **Vector DB**: Pinecone or Supabase Vector for RAG
-- **AI Service**: OpenAI GPT-4 with custom instructions
+- **Vector DB**: Chroma (open-source) or Supabase Vector for RAG ($0-20/month vs $70 Pinecone)
+- **AI Service**: Claude 3.5 Sonnet API (40% cost savings vs GPT-4, comparable performance)
+- **Embeddings**: Voyage-3-lite or Jina v3 (80% cost savings vs OpenAI, superior performance)
 - **Authentication**: NextAuth.js with multiple providers
 - **Deployment**: Vercel with edge functions
 - **Monitoring**: Vercel Analytics + Sentry error tracking
+
+### **Cost Optimization Strategy**
+**Estimated Monthly Savings**: 70%+ operational cost reduction
+- **AI API**: Claude 3.5 Sonnet (~$15/1M tokens vs GPT-4 $25/1M) = 40% savings
+- **Embeddings**: Voyage-3-lite (~$0.03/1M tokens vs OpenAI $0.13/1M) = 80% savings  
+- **Vector Database**: Chroma ($0-10/month vs Pinecone $70/month) = 85%+ savings
+- **Total Monthly Cost**: ~$30-80 vs ~$150-300 with premium providers
 
 
 ### **High-Level Architecture Diagram**
@@ -329,7 +337,7 @@ sequenceDiagram
 3. **Practice Scenarios**: 15+ detailed scenario descriptions with success criteria
 4. **Interactive Tool Instructions**: Step-by-step guidance for Speech Builder, Apology Builder, etc.
 
-#### **Vector Database Schema**
+#### **Vector Database Schema (Chroma/Supabase Optimized)**
 ```typescript
 interface VectorDocument {
   id: string;
@@ -342,9 +350,15 @@ interface VectorDocument {
     content_type: 'concept' | 'example' | 'instruction' | 'feedback';
     difficulty_level: 'beginner' | 'intermediate' | 'advanced';
   };
-  embedding: number[];
+  embedding: number[]; // Voyage-3-lite or Jina v3 embeddings (1536 dimensions)
 }
 ```
+
+**Embedding Strategy (Cost-Optimized)**:
+- **Primary**: Voyage-3-lite embeddings - Close to OpenAI performance for 1/5 the price
+- **Alternative**: Jina v3 - Outperforms OpenAI on benchmarks, supports 89 languages
+- **Fallback**: OpenAI ada-002 for critical scenarios requiring maximum compatibility
+- **Cost Impact**: ~$15 vs $65 for processing Terry Real corpus (80% savings)
 
 #### **AI Conversation Engine Specifications**
 
@@ -355,10 +369,20 @@ interface VectorDocument {
 - **Crisis Detection**: Identifies distress signals and provides appropriate resources
 - **Personalization**: Learns user communication patterns and provides tailored feedback
 
+**AI Service Architecture (Cost-Optimized)**:
+```typescript
+interface AIServiceConfig {
+  primaryModel: 'claude-3-5-sonnet'; // 40% cost savings vs GPT-4
+  embeddingModel: 'voyage-3-lite' | 'jina-v3'; // 80% cost savings vs OpenAI
+  vectorDatabase: 'chroma' | 'supabase-vector'; // 85%+ cost savings vs Pinecone
+  fallbackModel: 'gpt-4o-mini'; // For high-complexity scenarios if needed
+}
+```
+
 **AI Prompt Architecture**:
 ```typescript
 interface AIPromptContext {
-  systemRole: string; // Base RLT coach instructions
+  systemRole: string; // Base RLT coach instructions optimized for Claude 3.5
   curriculumContext: string; // Current module/lesson context
   scenarioInstructions: string; // Specific practice scenario guidance
   userHistory: ConversationMessage[]; // Recent conversation history
@@ -366,6 +390,11 @@ interface AIPromptContext {
   safetyInstructions: string; // Crisis detection and response protocols
 }
 ```
+
+**Cost-Performance Benefits**:
+- **Claude 3.5 Sonnet**: Superior price/performance ratio, faster responses, excellent reasoning
+- **Voyage-3-lite Embeddings**: Close to OpenAI v3-large performance for 1/5 the price
+- **Chroma Vector DB**: Open-source, perfect for startup scale, minimal deployment costs
 
 ---
 
@@ -945,13 +974,36 @@ graph TB
 
 ### **Infrastructure Specifications**
 
-#### **Production Environment**
+#### **Production Environment (Cost-Optimized)**
 - **Platform**: Vercel Pro with Edge Functions
-- **Database**: Supabase PostgreSQL with vector extensions
-- **Vector Storage**: Pinecone or Supabase Vector
+- **Database**: Supabase PostgreSQL with vector extensions (includes vector database capability)
+- **Vector Storage**: Chroma (self-hosted) or Supabase Vector (integrated)
 - **Caching**: Redis for session and API response caching
 - **CDN**: Vercel Edge Network for global content delivery
 - **Monitoring**: Vercel Analytics + Sentry for error tracking
+
+#### **Cost-Optimized Infrastructure**
+```typescript
+interface CostOptimizedStack {
+  aiService: {
+    primary: 'claude-3-5-sonnet';
+    cost: '$15/1M tokens';
+    savings: '40% vs GPT-4';
+  };
+  embeddings: {
+    primary: 'voyage-3-lite';
+    cost: '$0.03/1M tokens';
+    savings: '80% vs OpenAI';
+  };
+  vectorDatabase: {
+    primary: 'chroma' | 'supabase-vector';
+    cost: '$0-20/month';
+    savings: '85%+ vs Pinecone';
+  };
+  totalMonthlyCost: '$30-80 vs $150-300';
+  totalSavings: '70%+';
+}
+```
 
 #### **Performance Targets**
 ```typescript

@@ -73,18 +73,23 @@ Build technical foundation with complete curriculum architecture support and adv
 
 ### **IMMEDIATE NEXT PRIORITY WORKFLOW**
 
-#### **🔴 CURRENT: RAG System Implementation**
-- **Status**: Ready to Start - TSD Complete
+#### **🔴 CURRENT: RAG System Implementation (Cost-Optimized)**
+- **Status**: Ready to Start - TSD Complete with optimized architecture
 - **Dependencies**: ✅ Technical Specification Document completed
 - **Estimated Time**: 8-10 hours
-- **Approach**: Vector database with Terry Real content processing per TSD specifications
+- **Approach**: Cost-optimized vector database with Terry Real content processing
+- **Technology Stack**: 
+  - **Vector DB**: Chroma (open-source, $0-10/month vs Pinecone $70/month)
+  - **Embeddings**: Voyage-3-lite or Jina v3 (80% cost savings vs OpenAI)
+  - **Expected Savings**: 85%+ on vector database costs, 80% on embedding processing
 - **Deliverable**: Working knowledge base supporting complete 12-module curriculum
 
-#### **🟡 NEXT: AI Conversation Engine**
+#### **🟡 NEXT: AI Conversation Engine (Cost-Optimized)**
 - **Status**: Planned - Awaiting RAG completion
 - **Dependencies**: ⏳ RAG System, ✅ TSD specifications
 - **Estimated Time**: 10-12 hours
-- **Approach**: Implement 15+ practice scenarios with interactive tools per TSD
+- **Approach**: Implement 15+ practice scenarios with Claude 3.5 Sonnet API (40% cost savings vs GPT-4)
+- **Technology Benefits**: Superior price/performance, faster responses, excellent reasoning capabilities
 - **Deliverable**: AI agent supporting MVP transformation loop (Recognize → Regulate → Speak → Repair)
 
 #### **🟡 PARALLEL: User Authentication & Basic UI**

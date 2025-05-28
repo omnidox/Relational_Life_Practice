@@ -153,23 +153,38 @@ This project showcases **advanced AI-human collaboration methodology** through s
 ### **Platform Decision: Web-First Progressive Web App**
 **Rationale**: Single codebase, faster MVP development, easier AI integration, superior portfolio showcase value
 
-### **Core Technology Stack**
+### **Core Technology Stack (Cost-Optimized)**
 - **Frontend**: React/Next.js (mobile-responsive design)
 - **Backend**: Node.js with Express or Next.js API routes
-- **Database**: PostgreSQL for user data, Vector database for RAG
-- **AI Integration**: OpenAI GPT-4 or Claude with custom RAG implementation
+- **Database**: PostgreSQL for user data, Chroma or Supabase Vector for embeddings
+- **AI Integration**: Claude 3.5 Sonnet API with custom RAG implementation (40% cost savings vs GPT-4)
+- **Embeddings**: Voyage-3-lite or Jina v3 (80% cost savings vs OpenAI ada-002)
 - **Authentication**: NextAuth.js or similar
 - **Deployment**: Vercel, Netlify, or similar JAMstack platform
 
-### **AI Architecture: Single Sophisticated Agent with Custom GPT Integration**
+### **Cost Optimization Strategy**
+**Total Operational Savings**: 70%+ cost reduction while maintaining premium functionality
+- **AI Conversations**: Claude 3.5 Sonnet - Superior price/performance vs GPT-4
+- **Content Processing**: Voyage-3-lite embeddings - Close to OpenAI performance for 1/5 the price
+- **Vector Storage**: Chroma open-source - $0-10/month vs Pinecone $70/month
+- **Monthly Cost**: ~$30-80 vs ~$150-300 with premium providers
+
+### **AI Architecture: Single Sophisticated Agent with Cost Optimization**
 - **RAG Knowledge Base**: Terry Real's books + curated RLT content + Custom GPT curriculum architecture
-- **Conversation Engine**: Context-aware dialogue management with 12-module progression logic
+- **Conversation Engine**: Claude 3.5 Sonnet with context-aware dialogue management and 12-module progression logic
+- **Embedding Strategy**: Voyage-3-lite or Jina v3 for superior cost/performance (80% savings vs OpenAI)
+- **Vector Database**: Chroma or Supabase Vector for cost-effective storage (85%+ savings vs Pinecone)
 - **Custom GPT Consultation**: Strategic curriculum design and content generation capabilities
 - **Practice Scenarios**: AI roleplay for tone regulation, vulnerability expression, repair conversations
 - **Safety Layer**: Crisis detection and appropriate response protocols
 - **Personalization**: User preference learning and relational blind spot identification
 - **Assessment Integration**: Recognition → Application → Transfer → Sustained Use tracking
 - **Analytics**: Conversation quality and learning effectiveness measurement
+
+### **Strategic Cost Benefits**
+- **Operational Efficiency**: 70%+ cost reduction while maintaining premium user experience
+- **Performance**: Claude 3.5 Sonnet provides faster responses and superior reasoning
+- **Scalability**: Cost-optimized stack enables sustainable growth from startup to enterprise scale
 
 ### **Performance Requirements**
 - **Response Time**: <2 seconds for AI conversations
