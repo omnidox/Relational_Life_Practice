@@ -57,7 +57,7 @@ Vector database setup with Terry Real content processing per TSD specifications
   - **Complete system diagrams**: Architecture, database ER, AI flow, component hierarchy, deployment
   - **Implementation specifications**: Database schema, API endpoints, security requirements
   - **Professional portfolio showcase**: 9.2/10 quality rating demonstrating advanced AI system design
-- `/docs/Curriculum-Design/` - **Complete 12-Module Architecture** via Custom GPT "Relational Learning Architect"
+- `/docs/Research/Curriculum-Design/` - **Complete 12-Module Architecture** via Custom GPT "Relational Learning Architect"
   - **Strategic AI consultation logs** with systematic methodology documentation
   - **Technical implementation specifications** for all interactive tools and gamification
 - `/docs/Research/` - Market research, user studies, therapeutic framework analysis
@@ -81,7 +81,7 @@ Vector database setup with Terry Real content processing per TSD specifications
 1. **Read Project Handoff**: `/docs/project-handoff-new-chat.md` - Complete project context and current status
 2. **Check Dashboard**: `/docs/project-dashboard.md` - Current priorities and workflow
 3. **Review PRD v2.0**: `/docs/PRD/product-requirements-v1.md` - Product specifications
-4. **Understand Curriculum**: `/docs/Curriculum-Design/curriculum-architecture-summary.md` - Learning system overview
+4. **Understand Curriculum**: `/docs/Research/Curriculum-Design/curriculum-architecture-summary.md` - Learning system overview
 
 ### **Current Priority**
 **RAG System Implementation** - Ready to begin with complete TSD foundation

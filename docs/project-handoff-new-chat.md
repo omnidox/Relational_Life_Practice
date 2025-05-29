@@ -93,13 +93,13 @@ A **Duolingo-style AI learning platform** for teaching relational skills based o
 
 ### **🟡 TIER 2: IMPORTANT - READ BEFORE STARTING (20 minutes)**
 5. **`/docs/PRD/product-requirements-v1.md`** - **PRD v2.0 FINALIZED** (Product specification)
-6. **`/docs/Curriculum-Design/curriculum-architecture-summary.md`** - **12-Module System Overview**
+6. **`/docs/Research/Curriculum-Design/curriculum-architecture-summary.md`** - **12-Module System Overview**
 7. **`/docs/workflow-hierarchy.md`** - **Document Organization Structure**
 
 ### **🟢 TIER 3: REFERENCE - AS NEEDED**
 8. **`/docs/TSD/diagram-planning-checklist.md`** - **Technical diagram completion status**
 9. **`/content/from_chat_to_product_content_series_enhanced.md`** - **Complete content strategy with 15+ ready articles**
-10. **`/docs/Curriculum-Design/chatgpt-curriculum-architect-session.md`** - **Custom GPT consultation details**
+10. **`/docs/Research/Curriculum-Design/chatgpt-curriculum-architect-session.md`** - **Custom GPT consultation details**
 
 ---
 
