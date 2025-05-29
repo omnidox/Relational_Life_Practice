@@ -86,13 +86,15 @@
 
 ### **5. Archive** 📦
 **Location**: `/docs/archive/`  
-**Role**: Completed or superseded planning documents  
+**Role**: Chronologically organized project evolution documentation  
 **Contains**:
-- Historical planning documents (Phase 1 research tasks - completed)
-- Previous versions of documents
-- Superseded strategies and outdated plans
+- **01-Foundation-Phase/**: Requirements elicitation and synthesis (May 24)
+- **02-Planning-Phase/**: MVP roadmaps and implementation plans (May 24-25)
+- **03-Workflow-Evolution/**: Process optimization and documentation strategy (May 24-27)
+- **04-Chat-Transitions/**: AI collaboration handoff methodology (May 25-27)
+- **Previous Chats/**: Complete development sessions (secured in .gitignore)
 
-**Authority Level**: **HISTORICAL** - Reference only, not active workflow
+**Authority Level**: **HISTORICAL** - Professional portfolio showcase of development methodology
 
 ---
 
