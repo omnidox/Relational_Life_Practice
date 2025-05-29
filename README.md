@@ -65,7 +65,7 @@ Vector database setup with Terry Real content processing per TSD specifications
 **Primary Workflow Authority**: `/docs/project-dashboard.md` - Complete workflow management with project history, current priorities, and future planning  
 **Technical Specifications**: `/docs/PRD/product-requirements-v1.md` - PRD v2.0 FINALIZED with comprehensive curriculum integration  
 **Implementation Planning**: `/docs/week-[X]-implementation-plan.md` - Phase-specific technical task breakdowns  
-**Content Creation**: `/articles/content-creation-backlog.md` - Professional portfolio and thought leadership pipeline  
+**Content Strategy**: `/content/from_chat_to_product_content_series_enhanced.md` - Complete content strategy and professional portfolio pipeline  
 **Process Reference**: `/docs/workflow-hierarchy.md` for complete document organization and roles
 
 ## 🚀 Getting Started

@@ -90,7 +90,7 @@ A **Duolingo-style AI learning platform** for teaching relational skills based o
 
 ### **🟢 TIER 3: REFERENCE - AS NEEDED**
 8. **`/docs/TSD/diagram-planning-checklist.md`** - **Technical diagram completion status**
-9. **`/articles/content-creation-backlog.md`** - **6 ready-to-draft articles**
+9. **`/content/from_chat_to_product_content_series_enhanced.md`** - **Complete content strategy with 15+ ready articles**
 10. **`/docs/Curriculum-Design/chatgpt-curriculum-architect-session.md`** - **Custom GPT consultation details**
 
 ---
