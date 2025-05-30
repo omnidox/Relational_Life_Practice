@@ -89,7 +89,7 @@ graph TB
     end
     
     subgraph "External Services"
-        U[OpenAI API]
+        U[Claude 3.5 Sonnet API]
         V[Authentication Provider]
         W[Email Service]
         X[Analytics Service]
@@ -333,6 +333,8 @@ sequenceDiagram
 
 #### **Knowledge Base Components**
 1. **Terry Real Corpus**: Complete books processed into semantic chunks
+   - Source: `/docs/Research/source-materials/pdf books/`
+   - Includes: All 3 Terry Real books for RLT methodology
 2. **Curriculum Content**: 12-module learning materials and examples
 3. **Practice Scenarios**: 15+ detailed scenario descriptions with success criteria
 4. **Interactive Tool Instructions**: Step-by-step guidance for Speech Builder, Apology Builder, etc.
