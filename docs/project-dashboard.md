@@ -4,8 +4,8 @@
 **Current Phase**: Phase 2 - Technical Implementation  
 **MVP Timeline**: 4 weeks total  
 **Primary Goal**: Job search portfolio + working MVP  
-**Last Updated**: May 29, 2025 - **Chat Part 4 Handoff**  
-**Chat Session**: Part 4 (Previous: Part 1-Foundation, Part 2-Curriculum, Part 3-TSD)
+**Last Updated**: May 29, 2025 - **Chat Part 5 Handoff**  
+**Chat Session**: Part 5 (Previous: Part 1-Foundation, Part 2-Curriculum, Part 3-TSD, Part 4-Market Research/Tech Audit)
 
 **Document Role**: Complete workflow management - Project history, current status, and future planning
 
@@ -84,7 +84,7 @@ Build technical foundation with complete curriculum architecture support and adv
 - **Archive**: Previous handoff moved to `/docs/archive/project-handoff-chat-part-3.md`
 - **Ready**: New chat can begin immediately with complete context
 
-#### **✅ COMPLETED: Comprehensive Market Research & Competitive Analysis**
+### **✅ COMPLETED: Comprehensive Market Research & Competitive Analysis**
 - **Status**: ✅ **COMPLETE** - Strategic positioning validated
 - **Achievement**: **40+ app competitive analysis** across AI therapy, relationship learning, and couples counseling
 - **Key Finding**: **Blue ocean opportunity confirmed** - No direct competitor combining our elements
@@ -96,16 +96,29 @@ Build technical foundation with complete curriculum architecture support and adv
 - **Portfolio Value**: Professional market research demonstrating strategic thinking and evidence-based decision making
 - **Implementation Confidence**: HIGH - Market research validates entire strategic direction
 
-#### **🔴 CURRENT: RAG System Implementation (Cost-Optimized)**
-- **Status**: In Progress - All documentation and handoff complete
-- **Dependencies**: ✅ Technical Specification Document completed, ✅ Cost optimization strategy
-- **Estimated Time**: 8-10 hours
-- **Approach**: Cost-optimized vector database with Terry Real content processing
-- **Technology Stack**: 
-  - **Vector DB**: Chroma (open-source, $0-10/month vs Pinecone $70/month)
-  - **Embeddings**: Voyage-3-lite or Jina v3 (80% cost savings vs OpenAI)
-  - **Expected Savings**: 85%+ on vector database costs, 80% on embedding processing
-- **Deliverable**: Working knowledge base supporting complete 12-module curriculum
+### **✅ COMPLETED: Post-TSD Technology Audit & Optimization**
+- **Status**: ✅ **COMPLETE** - Technology stack re-evaluated and optimized
+- **Achievement**: **Comprehensive technology audit** identifying 80%+ cost savings opportunities
+- **Key Findings**:
+  - ✅ Vercel pricing risk identified (Cara.app $96k case study)
+  - ✅ Free embedding alternative discovered (all-MiniLM-L6-v2 vs Voyage-3-lite)
+  - ✅ AWS Lightsail identified as optimal migration target
+  - ✅ Hybrid development strategy formulated (Vercel → AWS Lightsail)
+- **Strategic Value**: Evidence-based technology decision making demonstrating senior-level engineering judgment
+- **Portfolio Enhancement**: Technology audit process showcases strategic thinking and risk mitigation skills
+
+#### **🔴 NEXT IMMEDIATE PRIORITY: Hybrid Implementation Strategy**
+- **Status**: Ready to Begin - Technology audit complete, strategy finalized
+- **Dependencies**: ✅ TSD Complete, ✅ Cost Strategy, ✅ Market Validation, ✅ Technology Audit, ✅ Migration Strategy
+- **Approach**: Hybrid Vercel (development) → AWS Lightsail (production) strategy
+- **Technology Stack Finalized**: 
+  - **Development**: Vercel free tier with $25 spending caps
+  - **Production**: AWS Lightsail ($5-15/month predictable costs)
+  - **Embeddings**: all-MiniLM-L6-v2 (free, ChromaDB default)
+  - **Vector DB**: ChromaDB (open-source, local)
+  - **AI Service**: Claude 3.5 Sonnet API
+- **Timeline**: Week 1-4 Vercel development, Week 5 migration prep, Week 6+ AWS Lightsail production
+- **Expected Savings**: 80%+ cost reduction vs original projections
 
 #### **🟡 NEXT: AI Conversation Engine (Cost-Optimized)**
 - **Status**: Planned - Awaiting RAG completion
@@ -126,13 +139,17 @@ Build technical foundation with complete curriculum architecture support and adv
 - [x] **Technical Specification**: Complete implementation-ready documentation ✅ **ACHIEVED**
 - [x] **Cost Optimization**: 70%+ operational cost reduction strategy ✅ **ACHIEVED**
 - [x] **Market Research**: Comprehensive competitive analysis with strategic validation ✅ **ACHIEVED**
-- [ ] **RAG System**: Working knowledge base with curriculum content
-- [ ] **AI Conversations**: Functional practice scenarios for priority modules
-- [ ] **User Management**: Basic authentication and profile system
+- [x] **Technology Audit**: Post-TSD technology stack optimization ✅ **ACHIEVED**
+- [ ] **Implementation Strategy**: Hybrid Vercel → AWS Lightsail approach finalized ✅ **READY**
+- [ ] **Development Environment**: Vercel setup with spending caps and monitoring
+- [ ] **Migration Environment**: AWS Lightsail parallel setup and testing
+- [ ] **RAG System**: ChromaDB + all-MiniLM-L6-v2 implementation
+- [ ] **AI Conversations**: Claude 3.5 Sonnet integration with practice scenarios
+- [ ] **User Management**: NextAuth.js authentication system
 - [ ] **Integration**: Connected components supporting end-to-end user flow
-- [ ] **Content Creation**: Medium article documenting technical implementation process
+- [ ] **Content Creation**: Medium article documenting strategic technology decision process
 
-**Phase 2 Progress**: 43% Complete (3/7 major deliverables finished - TSD + Cost Optimization + Market Research)
+**Phase 2 Progress**: 50% Complete (4/12 major deliverables finished - TSD + Cost Optimization + Market Research + Technology Audit)
 
 ---
 
