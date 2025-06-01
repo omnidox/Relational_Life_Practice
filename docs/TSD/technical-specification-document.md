@@ -33,23 +33,29 @@ A React/Next.js web application with PostgreSQL database, vector-based RAG syste
 - **Security**: Multi-layer security with encrypted data and secure authentication
 - **Maintainability**: Clean separation between presentation, business logic, and data layers
 
-### **Technology Stack (Cost-Optimized)**
+### **Technology Stack (Audit-Optimized Hybrid Strategy)**
 - **Frontend**: React 18 with Next.js 14 (App Router)
 - **Backend**: Next.js API Routes with TypeScript
 - **Database**: PostgreSQL 15+ with Prisma ORM
-- **Vector DB**: Chroma (open-source) or Supabase Vector for RAG ($0-20/month vs $70 Pinecone)
-- **AI Service**: Claude 3.5 Sonnet API (40% cost savings vs GPT-4, comparable performance)
-- **Embeddings**: Voyage-3-lite or Jina v3 (80% cost savings vs OpenAI, superior performance)
+- **Vector DB**: ChromaDB (open-source, local development)
+- **AI Service**: Claude 3.5 Sonnet API (40% cost savings vs GPT-4)
+- **Embeddings**: all-MiniLM-L6-v2 (100% cost savings - completely free, ChromaDB default)
 - **Authentication**: NextAuth.js with multiple providers
-- **Deployment**: Vercel with edge functions
+- **Deployment**: Hybrid Vercel (development) → AWS Lightsail (production)
 - **Monitoring**: Vercel Analytics + Sentry error tracking
 
-### **Cost Optimization Strategy**
-**Estimated Monthly Savings**: 70%+ operational cost reduction
+### **Cost Optimization Strategy (80%+ Savings Achieved)**
+**Post-Audit Optimizations** (Based on comprehensive technology audit):
 - **AI API**: Claude 3.5 Sonnet (~$15/1M tokens vs GPT-4 $25/1M) = 40% savings
-- **Embeddings**: Voyage-3-lite (~$0.03/1M tokens vs OpenAI $0.13/1M) = 80% savings  
-- **Vector Database**: Chroma ($0-10/month vs Pinecone $70/month) = 85%+ savings
-- **Total Monthly Cost**: ~$30-80 vs ~$150-300 with premium providers
+- **Embeddings**: all-MiniLM-L6-v2 (FREE vs Voyage-3-lite $0.03/1M) = 100% savings
+- **Vector Database**: ChromaDB ($0-10/month vs Pinecone $70/month) = 85%+ savings
+- **Hosting**: AWS Lightsail ($5-25/month vs Vercel $20-96,000+/month) = 80%+ savings
+
+**Total Cost Analysis:**
+- **Development Phase**: $0-10/month (Vercel free tier with $25 spending caps)
+- **Production Phase**: $20-40/month (AWS Lightsail + managed services)
+- **At Scale**: $20-50/month (predictable pricing vs Vercel's exponential scaling risk)
+- **Overall Savings**: 80%+ vs original projections with eliminated scaling risk
 
 
 ### **High-Level Architecture Diagram**
@@ -357,12 +363,12 @@ interface VectorDocument {
 ```
 
 **Embedding Strategy (Cost-Optimized)**:
-- **Primary**: Voyage-3-lite embeddings - Close to OpenAI performance for 1/5 the price
-- **Alternative**: Jina v3 - Outperforms OpenAI on benchmarks, supports 89 languages
-- **Fallback**: OpenAI ada-002 for critical scenarios requiring maximum compatibility
-- **Cost Impact**: ~$15 vs $65 for processing Terry Real corpus (80% savings)
+- **Primary**: all-MiniLM-L6-v2 embeddings - ChromaDB default, completely free
+- **Quality**: 90% performance vs premium alternatives (5% difference acceptable for educational content)
+- **Benefits**: Zero configuration, no rate limits, complete data privacy, local processing
+- **Cost Impact**: 100% savings vs paid alternatives (Voyage-3-lite $0.03/1M, OpenAI $0.13/1M)
 
-#### **AI Conversation Engine Specifications**
+#### **AI Conversation Engine Specifications (Hybrid Strategy)**
 
 **Core Capabilities**:
 - **Contextual Understanding**: Maintains conversation history and user progress context
@@ -371,13 +377,13 @@ interface VectorDocument {
 - **Crisis Detection**: Identifies distress signals and provides appropriate resources
 - **Personalization**: Learns user communication patterns and provides tailored feedback
 
-**AI Service Architecture (Cost-Optimized)**:
+**AI Service Architecture (Audit-Optimized)**:
 ```typescript
 interface AIServiceConfig {
-  primaryModel: 'claude-3-5-sonnet'; // 40% cost savings vs GPT-4
-  embeddingModel: 'voyage-3-lite' | 'jina-v3'; // 80% cost savings vs OpenAI
-  vectorDatabase: 'chroma' | 'supabase-vector'; // 85%+ cost savings vs Pinecone
-  fallbackModel: 'gpt-4o-mini'; // For high-complexity scenarios if needed
+  primaryModel: 'claude-3-5-sonnet'; // 40% cost savings vs GPT-4, superior reasoning
+  embeddingModel: 'all-MiniLM-L6-v2'; // 100% cost savings - completely free
+  vectorDatabase: 'chromadb'; // 85%+ cost savings vs Pinecone
+  fallbackModel: 'gpt-4o-mini'; // For complex scenarios if needed
 }
 ```
 
@@ -931,73 +937,121 @@ interface CrisisDetection {
 
 ## 🚀 **Deployment Architecture**
 
-### **Deployment Strategy**
+### **Deployment Strategy (Hybrid Approach)**
 
 ```mermaid
 graph TB
-    subgraph "Production Environment"
-        A[Vercel Edge Network]
+    subgraph "Development Environment (Weeks 1-4)"
+        A[Vercel Free Tier]
         B[Next.js Application]
-        C[PostgreSQL Database]
-        D[Vector Database]
-        E[Redis Cache]
+        C[Local PostgreSQL]
+        D[ChromaDB Local]
+        E[Spending Caps: $25 max]
+    end
+    
+    subgraph "Production Environment (Week 6+)"
+        F[AWS Lightsail]
+        G[Next.js Application]
+        H[AWS Lightsail PostgreSQL]
+        I[ChromaDB Containerized]
+        J[Predictable Pricing]
     end
     
     subgraph "External Services"
-        F[OpenAI API]
-        G[NextAuth Providers]
-        H[Email Service]
-        I[Analytics Service]
-        J[Error Monitoring]
+        K[Claude 3.5 Sonnet API]
+        L[NextAuth Providers]
+        M[Email Service]
+        N[Analytics Service]
+        O[Error Monitoring]
     end
     
-    subgraph "Development Pipeline"
-        K[GitHub Repository]
-        L[GitHub Actions CI/CD]
-        M[Preview Deployments]
-        N[Testing Suite]
+    subgraph "Migration Strategy"
+        P[Week 5: Environment Prep]
+        Q[Migration Triggers]
+        R[Cost Monitoring]
+        S[Risk Mitigation]
     end
     
     A --> B
     B --> C
     B --> D
-    B --> E
-    B --> F
-    B --> G
-    B --> H
-    B --> I
-    B --> J
+    A --> E
     
-    K --> L
-    L --> M
-    L --> N
-    L --> B
+    F --> G
+    G --> H
+    G --> I
+    F --> J
+    
+    B --> K
+    B --> L
+    B --> M
+    B --> N
+    B --> O
+    
+    G --> K
+    G --> L
+    G --> M
+    G --> N
+    G --> O
+    
+    A -.-> P
+    P -.-> F
+    Q -.-> F
+    R -.-> Q
+    S -.-> R
 ```
 
 ### **Infrastructure Specifications**
 
-#### **Production Environment (Cost-Optimized)**
-- **Platform**: Vercel Pro with Edge Functions
-- **Database**: Supabase PostgreSQL with vector extensions (includes vector database capability)
-- **Vector Storage**: Chroma (self-hosted) or Supabase Vector (integrated)
-- **Caching**: Redis for session and API response caching
-- **CDN**: Vercel Edge Network for global content delivery
-- **Monitoring**: Vercel Analytics + Sentry for error tracking
+#### **Infrastructure Specifications (Hybrid Strategy)**
 
-#### **Cost-Optimized Infrastructure**
+#### **Development Environment - Vercel (Weeks 1-4)**
+- **Platform**: Vercel free tier with mandatory spending controls
+- **Safety Measures**: $25 monthly limit, email alerts at $10/$20, project pause at $25
+- **Benefits**: Zero upfront costs, instant deployment, preview deployments
+- **Risk Mitigation**: Migration environment prepared in parallel
+
+#### **Production Environment - AWS Lightsail (Week 6+)**
+- **Platform**: AWS Lightsail with managed services
+- **Database**: AWS Lightsail PostgreSQL ($15/month)
+- **Compute**: $5-10/month instances (1-2GB RAM, 40-60GB SSD)
+- **Vector Storage**: ChromaDB containerized (self-hosted)
+- **CDN**: CloudFront included with AWS Lightsail
+- **Monitoring**: AWS CloudWatch + Sentry integration
+
+#### **Cost-Optimized Infrastructure Stack**
 ```typescript
-interface CostOptimizedStack {
+interface HybridCostOptimizedStack {
+  development: {
+    platform: 'vercel-free-tier';
+    cost: '$0-10/month';
+    safetyLimits: '$25 maximum with alerts';
+    benefits: 'Zero upfront, instant deployment, preview environments';
+  };
+  production: {
+    platform: 'aws-lightsail';
+    cost: '$20-40/month';
+    predictability: 'Fixed pricing regardless of scale';
+    careerValue: 'AWS experience highly valued';
+  };
   aiService: {
     primary: 'claude-3-5-sonnet';
     cost: '$15/1M tokens';
     savings: '40% vs GPT-4';
   };
   embeddings: {
-    primary: 'voyage-3-lite';
-    cost: '$0.03/1M tokens';
-    savings: '80% vs OpenAI';
+    primary: 'all-MiniLM-L6-v2';
+    cost: '$0 (completely free)';
+    savings: '100% vs Voyage-3-lite';
   };
   vectorDatabase: {
+    primary: 'chromadb';
+    cost: '$0-10/month';
+    savings: '85%+ vs Pinecone';
+  };
+  totalSavings: '80%+ vs original projections';
+  scalingRisk: 'Eliminated through predictable pricing';
+}
     primary: 'chroma' | 'supabase-vector';
     cost: '$0-20/month';
     savings: '85%+ vs Pinecone';
@@ -1085,28 +1139,104 @@ interface OptimizationStrategy {
 
 ## 📋 **Implementation Phases**
 
-### **Phase 1: Core Foundation (Week 2)**
-**Duration**: 5-7 days  
-**Deliverables**: Basic application structure with authentication and database
+### **Implementation Phases (Hybrid Strategy)**
 
-#### **Technical Tasks**
-1. **Project Setup**
+### **Phase 1: Development Foundation (Weeks 1-4) - Vercel**
+**Duration**: 4 weeks  
+**Platform**: Vercel free tier with mandatory spending controls
+**Safety Measures**:
+```bash
+# CRITICAL: Set immediately upon project creation
+Vercel Dashboard → Settings → Billing → Usage Limits
+- Monthly limit: $25 maximum
+- Email alerts: $10, $20
+- Project pause: Automatic at $25
+```
+
+#### **Week 1-2: Core Foundation**
+1. **Project Setup & Safety**
    - Next.js 14 application with TypeScript
-   - PostgreSQL database with Prisma ORM
-   - NextAuth.js authentication setup
-   - Basic UI components and routing
+   - Vercel deployment with spending caps configured
+   - Local PostgreSQL database setup
+   - ChromaDB local development environment
 
-2. **Database Implementation**
-   - Complete schema creation and migrations
-   - Seed data for modules and initial content
-   - User management and authentication flows
+2. **RAG System Foundation**
+   - ChromaDB setup with all-MiniLM-L6-v2 embeddings (free)
+   - Terry Real content processing and local storage
+   - Basic retrieval and context generation testing
 
-3. **RAG System Foundation**
-   - Vector database setup (Pinecone/Supabase)
-   - Terry Real content processing and embedding
-   - Basic retrieval and context generation
+#### **Week 3-4: AI Integration**
+1. **Claude 3.5 Sonnet Integration**
+   - API setup with cost monitoring
+   - Basic conversation scenarios implementation
+   - User authentication and progress tracking
 
-**Success Criteria**: User can signup, login, and view curriculum structure
+### **Phase 2: Migration Preparation (Week 5)**
+**Duration**: 1 week  
+**Platform**: AWS Lightsail setup in parallel
+**Objective**: Zero-downtime migration readiness
+
+#### **Migration Environment Setup**
+1. **AWS Lightsail Account & Instance**
+   - $5/month instance setup (1GB RAM, 40GB SSD)
+   - Next.js deployment testing
+   - Environment variables migration
+
+2. **Database Migration Testing**
+   - AWS Lightsail PostgreSQL setup ($15/month)
+   - Migration scripts and data transfer testing
+   - Backup and rollback procedures
+
+3. **ChromaDB Containerization**
+   - Docker setup for ChromaDB deployment
+   - Vector database migration validation
+   - Performance testing on Lightsail
+
+### **Phase 3: Strategic Migration (Weeks 6-8)**
+**Duration**: 2-3 weeks  
+**Platform**: AWS Lightsail production deployment
+**Triggers**: Cost monitoring, user growth, or Month 2 timeline
+
+#### **Migration Triggers**
+- Vercel costs approaching $15/month
+- User growth acceleration (100+ active users)
+- Month 2 begins (regardless of costs)
+- Any spending spike above $5/day
+
+#### **Migration Process**
+1. **DNS & Domain Transfer** (Day 1)
+   - Domain pointing to AWS Lightsail
+   - SSL certificate setup
+   - CDN configuration
+
+2. **Database Migration** (Day 1-2)
+   - PostgreSQL data export from development
+   - Import to AWS Lightsail managed database
+   - Data integrity verification
+
+3. **Application Deployment** (Day 2)
+   - Next.js application deployment to Lightsail
+   - Environment variables configuration
+   - ChromaDB container deployment
+
+4. **Performance Validation** (Day 3)
+   - Response time verification (<2 seconds)
+   - AI conversation testing
+   - User acceptance testing
+
+### **Phase 4: Production Optimization (Month 2+)**
+**Ongoing optimization and scaling on AWS Lightsail**
+
+#### **Performance Monitoring**
+- Application metrics tracking
+- Cost verification ($20-40/month target)
+- User experience monitoring
+- Scaling decision points (>100,000 users)
+
+#### **Success Metrics**
+- **Technical**: Zero downtime migration, <2 second response times
+- **Financial**: 80%+ cost savings vs original projections
+- **Professional**: AWS experience documentation for portfolio
 
 ### **Phase 2: AI Conversation Engine (Week 3)**
 **Duration**: 7-10 days  

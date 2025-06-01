@@ -153,27 +153,30 @@ This project showcases **advanced AI-human collaboration methodology** through s
 ### **Platform Decision: Web-First Progressive Web App**
 **Rationale**: Single codebase, faster MVP development, easier AI integration, superior portfolio showcase value
 
-### **Core Technology Stack (Cost-Optimized)**
+### **Core Technology Stack (Audit-Optimized Hybrid Strategy)**
 - **Frontend**: React/Next.js (mobile-responsive design)
-- **Backend**: Node.js with Express or Next.js API routes
-- **Database**: PostgreSQL for user data, Chroma or Supabase Vector for embeddings
+- **Backend**: Node.js with Next.js API routes
+- **Database**: PostgreSQL for user data, ChromaDB for embeddings
 - **AI Integration**: Claude 3.5 Sonnet API with custom RAG implementation (40% cost savings vs GPT-4)
-- **Embeddings**: Voyage-3-lite or Jina v3 (80% cost savings vs OpenAI ada-002)
+- **Embeddings**: all-MiniLM-L6-v2 (100% cost savings - completely free, ChromaDB default)
 - **Authentication**: NextAuth.js or similar
-- **Deployment**: Vercel, Netlify, or similar JAMstack platform
+- **Deployment**: Hybrid Vercel (development) → AWS Lightsail (production)
 
-### **Cost Optimization Strategy**
-**Total Operational Savings**: 70%+ cost reduction while maintaining premium functionality
-- **AI Conversations**: Claude 3.5 Sonnet - Superior price/performance vs GPT-4
-- **Content Processing**: Voyage-3-lite embeddings - Close to OpenAI performance for 1/5 the price
-- **Vector Storage**: Chroma open-source - $0-10/month vs Pinecone $70/month
-- **Monthly Cost**: ~$30-80 vs ~$150-300 with premium providers
+### **Cost Optimization Strategy (80%+ Savings Achieved)**
+**Post-Audit Total Operational Savings**: 80%+ cost reduction while maintaining premium functionality
+- **AI Conversations**: Claude 3.5 Sonnet - Superior price/performance vs GPT-4 (40% savings)
+- **Content Processing**: all-MiniLM-L6-v2 embeddings - 100% cost savings vs paid alternatives
+- **Vector Storage**: ChromaDB open-source - $0-10/month vs Pinecone $70/month (85%+ savings)
+- **Hosting Strategy**: AWS Lightsail predictable pricing vs Vercel's exponential scaling risk
+- **Development Cost**: $0-10/month (Vercel free tier with $25 spending caps)
+- **Production Cost**: $20-40/month (AWS Lightsail + managed services)
+- **At Scale**: $20-50/month (predictable vs Vercel's $96k+ scaling risk)
 
-### **AI Architecture: Single Sophisticated Agent with Cost Optimization**
+### **AI Architecture: Single Sophisticated Agent with Hybrid Cost Optimization**
 - **RAG Knowledge Base**: Terry Real's books + curated RLT content + Custom GPT curriculum architecture
 - **Conversation Engine**: Claude 3.5 Sonnet with context-aware dialogue management and 12-module progression logic
-- **Embedding Strategy**: Voyage-3-lite or Jina v3 for superior cost/performance (80% savings vs OpenAI)
-- **Vector Database**: Chroma or Supabase Vector for cost-effective storage (85%+ savings vs Pinecone)
+- **Embedding Strategy**: all-MiniLM-L6-v2 for superior cost/performance (100% savings vs paid alternatives)
+- **Vector Database**: ChromaDB for cost-effective storage (85%+ savings vs Pinecone)
 - **Custom GPT Consultation**: Strategic curriculum design and content generation capabilities
 - **Practice Scenarios**: AI roleplay for tone regulation, vulnerability expression, repair conversations
 - **Safety Layer**: Crisis detection and appropriate response protocols
@@ -181,10 +184,11 @@ This project showcases **advanced AI-human collaboration methodology** through s
 - **Assessment Integration**: Recognition → Application → Transfer → Sustained Use tracking
 - **Analytics**: Conversation quality and learning effectiveness measurement
 
-### **Strategic Cost Benefits**
-- **Operational Efficiency**: 70%+ cost reduction while maintaining premium user experience
+### **Strategic Cost Benefits (Audit-Validated)**
+- **Operational Efficiency**: 80%+ cost reduction while maintaining premium user experience
 - **Performance**: Claude 3.5 Sonnet provides faster responses and superior reasoning
 - **Scalability**: Cost-optimized stack enables sustainable growth from startup to enterprise scale
+- **Risk Mitigation**: Eliminated Vercel's exponential scaling costs through hybrid strategy
 
 ### **Performance Requirements**
 - **Response Time**: <2 seconds for AI conversations
