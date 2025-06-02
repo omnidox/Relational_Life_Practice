@@ -109,6 +109,54 @@ Development Updates: [Social Media/GitHub]
 
 *Building the future of relationship education through thoughtful AI collaboration.*
 
+## 📄 License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+### Software License
+The software implementation, AI integration, curriculum structure, and documentation are original works by Rafael Hidalgo and are released under the Apache License 2.0.
+
+## 🙏 Attribution & Copyright
+
+### Terry Real's Relational Life Therapy
+This project implements concepts and methodologies from **Terry Real's Relational Life Therapy (RLT)**. Terry Real's books, therapeutic concepts, and methodologies are the intellectual property of Terry Real and the Relational Life Institute:
+
+- *The New Rules of Marriage* 
+- *I Don't Want to Talk About It*
+- *Us: Getting Past You & Me to Build a More Loving Relationship*
+
+**Important**: The Terry Real corpus and RLT methodology are used under educational fair use principles. Our implementation represents a transformative educational application that teaches relationship skills through AI-powered practice scenarios.
+
+### Educational Use Statement
+This platform is designed for **educational purposes** to make relationship skills more accessible through technology. It is:
+- **NOT a replacement** for professional therapy or counseling
+- **NOT affiliated** with Terry Real or the Relational Life Institute
+- **Inspired by** but not officially endorsed by Terry Real's work
+- **Transformative** educational content that builds upon established therapeutic principles
+
+### Original Contributions
+The following elements are original works licensed under Apache 2.0:
+- Software architecture and implementation
+- AI conversation engine and RAG system
+- Gamification system and user experience design  
+- 12-module curriculum adaptation for digital learning
+- Interactive tools (Speech Builder, Apology Builder, etc.)
+- Cost-optimized technology stack implementation
+- Strategic AI collaboration methodology
+
+## 🤝 Contributing
+
+Contributions are welcome! By contributing to this project, you agree that your contributions will be licensed under the Apache License 2.0.
+
+Please ensure any contributions:
+- Respect the educational fair use approach to Terry Real's concepts
+- Include appropriate copyright headers for new files
+- Maintain the project's focus on ethical AI in relationship education
+
+---
+
+**Copyright 2025 Rafael Hidalgo**
+
 
 ## 💼 Professional Portfolio Showcase
 
