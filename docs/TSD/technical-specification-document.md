@@ -20,7 +20,7 @@ This Technical Specification Document (TSD) provides implementation-ready specif
 - **Educational Technology**: Assessment framework supporting Recognition → Application → Transfer → Sustained Use
 
 ### **System Overview**
-A React/Next.js web application with PostgreSQL database, vector-based RAG system, and OpenAI integration, designed for sub-2-second AI response times and 99.5% uptime at scale.
+A React/Next.js web application with PostgreSQL database, vector-based RAG system, and Claude 3.5 Sonnet integration, designed for sub-2-second AI response times and 99.5% uptime at scale.
 
 ---
 
