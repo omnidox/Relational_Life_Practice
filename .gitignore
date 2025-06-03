@@ -51,3 +51,4 @@ logs/
 tmp/
 temp/
 /venv
+/rag_dev/notebooks/.ipynb_checkpoints
