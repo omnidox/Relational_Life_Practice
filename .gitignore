@@ -53,3 +53,4 @@ temp/
 /venv
 /rag_dev/notebooks/.ipynb_checkpoints
 /rag_dev/rag_dev/chroma_db
+/rag_dev/notebooks/chroma_db
