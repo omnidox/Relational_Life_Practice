@@ -252,41 +252,97 @@ Build and validate core AI capabilities with local RAG system before deployment 
 **Week 1 Total Estimate**: 14-18 hours across 6 systematic tasks ✅ **100% COMPLETE**
 **Risk Mitigation**: $0 costs during validation, complete technical foundation established
 **Portfolio Content**: **Complete RAG optimization methodology** with user language gap resolution documented
-- [ ] **AI Conversation Engine**: Claude 3.5 Sonnet integration with practice scenarios ⏳ **NEXT (Week 2)**
-- [ ] **Vercel Integration**: RAG system deployment with spending controls ⏳ **Week 3**
-- [ ] **User Management**: NextAuth.js authentication system ⏳ **Week 3**
-- [ ] **Migration Environment**: AWS Lightsail parallel setup and testing ⏳ **Week 4**
-- [ ] **End-to-End Integration**: Connected components supporting complete user flow ⏳ **Week 4**
-- [ ] **Content Creation**: Technical articles documenting RAG implementation methodology ⏳ **Ongoing**
+
+### **🟡 Week 2: Claude Integration + Basic Deployment** ⏳ **CURRENT PRIORITY**
+- [ ] **Claude 3.5 Sonnet Integration**: AI conversation engine with validated RAG configuration (hybrid_weighted + n_results=10)
+- [ ] **Basic Vercel Deployment**: Simple deployment with mandatory spending controls ($25 cap)
+- [ ] **A/B Testing Execution**: Test 4 RAG configurations against conversation quality metrics
+- [ ] **Performance Validation**: Achieve <2s end-to-end response times (RAG + Claude)
+- [ ] **Conversation Quality**: Ensure therapeutic accuracy and empathetic communication
+- [ ] **Content Creation**: Technical articles documenting Claude integration methodology ⏳ **Ongoing**
+
+**Week 2 Success Criteria**: Working Claude + RAG conversation system with basic deployment
 
 **Phase 2 Progress**: ✅ **100% Complete** (All 12 major deliverables finished including **Task 6 query optimization complete**)
 
 ---
 
-## 🚀 **PHASE 3: DEVELOPMENT & LAUNCH** 📋 **PLANNED**
-*Weeks 3-4 - June 2-15, 2025*
+## 🚀 **PHASE 3: USER EXPERIENCE & MVP POLISH** 📋 **PLANNED**
+*Weeks 3-4 - June 9-22, 2025*
 
-### **Week 3: User Experience & MVP Integration**
-- **Complete Learning Flow**: Priority modules (1,4,6,8) fully implemented
-- **Gamification System**: 12 unique badges, XP progression, achievement unlocks
-- **Beta Testing**: 20-30 users testing complete transformation loop
+### **🎯 Week 3: User Experience & Learning System**
+**Focus**: Complete learning flow with user management - building on Week 2's AI foundation
 
-### **Week 4: Polish & Professional Portfolio**
-- **Production Readiness**: <2 second response times, 99%+ uptime, security protocols
-- **Portfolio Integration**: Live demo, case study, 4 Medium articles published
-- **Launch Preparation**: Beta feedback integration, professional network outreach
+#### **Core User Experience**
+- [ ] **User Management**: NextAuth.js authentication system (signup, login, profiles)
+- [ ] **Learning Flow Implementation**: Priority modules (1,4,6,8) fully functional
+- [ ] **Progress Tracking**: User progress persistence and session management
+- [ ] **Basic UI/UX**: Clean, intuitive interface for learning and AI practice
+
+#### **AI Integration Polish**
+- [ ] **Conversation Scenarios**: 15+ practice scenarios using Week 2's Claude system
+- [ ] **Interactive Tools Foundation**: Speech Builder and Apology Builder basic versions
+- [ ] **Safety Protocols**: Crisis detection and inappropriate content filtering
+
+**Week 3 Success Criteria**: Complete user flow from signup → lesson → AI practice → progress tracking
+
+### **🏆 Week 4: Gamification & Portfolio Launch**
+**Focus**: Production polish and professional portfolio showcase
+
+#### **Gamification System**
+- [ ] **Achievement System**: 12 unique badges with meaningful progression
+- [ ] **XP & Levels**: Visual skill advancement tracking and motivation
+- [ ] **Progress Analytics**: User engagement metrics and completion tracking
+
+#### **Production Readiness**
+- [ ] **Performance Optimization**: <2 second response times, 99%+ uptime
+- [ ] **Mobile Responsive**: PWA capabilities and mobile-first design
+- [ ] **Security Hardening**: Comprehensive safety protocols implementation
+
+#### **Professional Portfolio**
+- [ ] **Live Demo**: Employer-ready demonstration with working features
+- [ ] **Case Study Documentation**: Complete AI-human collaboration methodology
+- [ ] **Content Publication**: 4 Medium articles showcasing development process
+- [ ] **Professional Network**: Outreach to potential employers and collaborators
+
+**Week 4 Success Criteria**: MVP ready for employer demonstrations + professional portfolio showcase
+
+---
+
+## 🔄 **STRATEGIC DECISION: AWS MIGRATION → OPTIONAL/FUTURE**
+
+### **Why This Makes Sense**
+- **Vercel Spending Controls**: $25 caps prevent the $96k pricing trap we identified
+- **MVP Focus**: 4-week timeline prioritizes user experience over infrastructure
+- **Migration Safety**: Can migrate to AWS Lightsail later if/when scaling is needed
+- **Cost Validation**: Vercel free tier + spending controls = predictable development costs
+
+### **Future Migration Path** (Post-MVP)
+- **Trigger Points**: $15/month Vercel costs OR user growth acceleration OR Month 2
+- **Target Platform**: AWS Lightsail ($5-15/month predictable costs)
+- **Migration Timeline**: 1-2 days (vs weeks under cost pressure)
+- **Benefits**: 80%+ cost reduction + AWS experience + scaling safety
 
 ---
 
 ## 🔗 **WORKFLOW DEPENDENCIES & SEQUENCE**
 
-### **Critical Path**
-1. **TSD Creation** → **RAG Implementation** → **AI Conversation Engine** → **User Integration** → **MVP Testing** → **Portfolio Launch**
+### **Critical Path - Sequential Option B**
+1. **Week 1**: ✅ **RAG Foundation Complete**
+2. **Week 2**: **Claude Integration + Basic Deployment**
+3. **Week 3**: **User Experience & Learning System** 
+4. **Week 4**: **Gamification + Portfolio Launch**
+
+### **Sequential Benefits**
+- **Technical Foundation First**: RAG → Claude → Deployment
+- **User Experience Second**: Authentication → Learning Flow → Gamification  
+- **Portfolio Last**: Polish → Demo → Professional Showcase
 
 ### **Quality Gates**
-- **Phase 2 → Phase 3**: Working technical foundation with AI conversations
-- **Week 3 → Week 4**: Complete user flow with transformation loop validation
-- **Phase 3 → Launch**: Portfolio-ready demonstration with professional documentation
+- **Week 1 → Week 2**: Production-ready RAG system with 80% success rate
+- **Week 2 → Week 3**: Working Claude conversations with basic deployment
+- **Week 3 → Week 4**: Complete user flow with authentication and progress tracking
+- **Week 4 → Launch**: Portfolio-ready demonstration with professional documentation
 
 ---
 
@@ -294,12 +350,13 @@ Build and validate core AI capabilities with local RAG system before deployment 
 
 ### **Technical Achievement**
 - [ ] **Working MVP**: Complete user flow from signup to AI practice completion
-- [ ] **AI Sophistication**: 15+ practice scenarios with intelligent conversation
-- [ ] **Performance**: Production-ready speed and reliability
+- [ ] **AI Sophistication**: 15+ practice scenarios with intelligent conversation using Claude + validated RAG
+- [ ] **Performance**: Production-ready speed and reliability (<2s response times)
 
 ### **Professional Portfolio Impact**
-- [ ] **Strategic AI Collaboration**: Advanced methodology demonstrated and documented
-- [ ] **Educational Technology**: Sophisticated learning system design showcased
+- [ ] **Sequential Development Methodology**: Foundation → Implementation → Polish → Launch documented
+- [ ] **Strategic AI Collaboration**: Advanced RAG optimization + Claude integration showcased
+- [ ] **Educational Technology**: Sophisticated learning system design with gamification
 - [ ] **Content Creation**: 4 articles demonstrating thought leadership and technical depth
 
 ---
@@ -307,5 +364,7 @@ Build and validate core AI capabilities with local RAG system before deployment 
 **🎯 NEXT IMMEDIATE ACTION: Week 2 - Claude 3.5 Sonnet Integration**
 
 **Current Achievement**: ✅ **TASK 6 COMPLETE** - User language gap resolved with 80% success rate using hybrid_weighted + n_results=10 strategy. Complete RAG system production-ready with A/B testing framework prepared for Claude integration.
+
+**Sequential Option B Status**: ✅ **DASHBOARD UPDATED** - Logical inconsistency resolved, clear 4-week sequential roadmap established
 
 *Complete workflow authority providing clear progression from foundation through launch*
