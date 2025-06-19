@@ -9,7 +9,7 @@
 ## 📋 **Document Hierarchy Structure**
 
 ### **1. Master Project Status** 🎯
-**Document**: `/docs/project-dashboard.md`  
+**Document**: `/docs/Project_Management/project-dashboard.md`  
 **Role**: **Primary workflow authority** - Master project status and weekly priorities  
 **Contains**:
 - Current sprint status and top priority tasks

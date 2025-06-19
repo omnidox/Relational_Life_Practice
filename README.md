@@ -62,7 +62,7 @@ Complete RAG system operational and validated, ready for AI conversation engine 
 
 ## 📚 Documentation Structure
 
-- `/docs/project-dashboard.md` - **PRIMARY WORKFLOW AUTHORITY** - Complete project management with Phase 1 & 2 history, current priorities
+- `/docs/Project_Management/project-dashboard.md` - **PRIMARY WORKFLOW AUTHORITY** - Complete project management with Phase 1 & 2 history, current priorities
 - `/docs/New_Chat_Handoff/` - **CHAT TRANSITION MATERIALS** - Complete handoff documentation for new chat sessions
 - `/rag_dev/notebooks/` - **RAG IMPLEMENTATION METHODOLOGY** - Complete multi-book corpus processing with 1,294 chunks
 - `/docs/PRD/` - Product Requirements Document (v2.0 FINALIZED with complete curriculum integration)
@@ -82,7 +82,7 @@ Complete RAG system operational and validated, ready for AI conversation engine 
 
 ## 🔄 Workflow Management
 
-**Primary Workflow Authority**: `/docs/project-dashboard.md` - Complete workflow management with project history, current priorities, and future planning  
+**Primary Workflow Authority**: `/docs/Project_Management/project-dashboard.md` - Complete workflow management with project history, current priorities, and future planning  
 **Technical Specifications**: `/docs/PRD/product-requirements-v1.md` - PRD v2.0 FINALIZED with comprehensive curriculum integration  
 **Strategic Research**: `/docs/Research/` - Market validation, competitive analysis, and curriculum architecture  
 **Content Strategy**: `/content/from_chat_to_product_content_series_enhanced.md` - Complete content strategy and professional portfolio pipeline  
@@ -92,7 +92,7 @@ Complete RAG system operational and validated, ready for AI conversation engine 
 
 ### **For New Collaborators**
 1. **Read Project Handoff**: `/docs/New_Chat_Handoff/project-handoff-new-chat.md` - Complete project context and current status
-2. **Check Dashboard**: `/docs/project-dashboard.md` - Current priorities and workflow
+2. **Check Dashboard**: `/docs/Project_Management/project-dashboard.md` - Current priorities and workflow
 3. **Review PRD v2.0**: `/docs/PRD/product-requirements-v1.md` - Product specifications
 4. **Understand Curriculum**: `/docs/Research/Curriculum-Design/curriculum-architecture-summary.md` - Learning system overview
 

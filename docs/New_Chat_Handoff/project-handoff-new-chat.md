@@ -170,7 +170,7 @@ A **Duolingo-style AI learning platform** for teaching relational skills based o
 
 ### **🔴 TIER 1: CRITICAL - READ FIRST (45 minutes)**
 1. **`/README.md`** - **PROJECT OVERVIEW** (Current status, achievements, strategic validation)
-2. **`/docs/project-dashboard.md`** - **PRIMARY WORKFLOW AUTHORITY** (Current priorities, Phase 2 status)
+2. **`/docs/Project_Management/project-dashboard.md`** - **PRIMARY WORKFLOW AUTHORITY** (Current priorities, Phase 2 status)
 3. **`/docs/Research/Post_TSD_Tech_Audit/technology-stack-audit-and-recommendations.md`** - **TECHNOLOGY AUDIT** (Complete cost analysis, platform comparison, migration strategy)
 4. **`/docs/TSD/technical-specification-document.md`** - **TECHNICAL FOUNDATION** (Implementation-ready specs)
 5. **`/docs/cost-optimization-strategy.md`** - **STRATEGIC COST ANALYSIS** (70%+ savings with competitive validation)

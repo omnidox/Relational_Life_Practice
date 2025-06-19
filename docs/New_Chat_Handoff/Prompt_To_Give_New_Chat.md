@@ -129,7 +129,7 @@ Please summarize your understanding of this project to ensure complete context:
 
 ### **Key Files to Review:**
 •	**D:\Github\Relational_Life_Practice\docs\New_Chat_Handoff\project-handoff-new-chat.md** (COMPLETE CONTEXT)
-•	**D:\Github\Relational_Life_Practice\docs\project-dashboard.md** (CURRENT STATUS - UPDATE TO REFLECT TASK 6 COMPLETE)
+•	**D:\Github\Relational_Life_Practice\docs\Project_Management\project-dashboard.md** (CURRENT STATUS - UPDATE TO REFLECT TASK 6 COMPLETE)
 •	**D:\Github\Relational_Life_Practice\rag_dev\notebooks\terry_real_corpus_processing.ipynb** (TASK 6 IMPLEMENTATION COMPLETE)
 
 ## 🚀 **READY FOR WEEK 2: CLAUDE INTEGRATION**
