@@ -11,16 +11,13 @@
 
 ## 🎯 **PROJECT OVERVIEW**
 
-### **What We're Building**
-A **Duolingo-style AI learning platform** for teaching relational skills based on **Terry Real's Relational Life Therapy (RLT)** methodology. The platform combines:
-- **Complete 12-module evidence-based curriculum** (11-15 hours content)
-- **Cost-optimized AI stack** with 80%+ operational savings
-- **AI-powered roleplay scenarios** for safe relationship practice
-- **Advanced gamification** with meaningful progression system
-- **RAG-enhanced conversations** grounded in Terry Real's methodology with **80% success rate validated**
+**What We're Building**: A **Duolingo-style AI learning platform** for teaching relational skills based on **Terry Real's Relational Life Therapy (RLT)** methodology with:
+- Complete 12-module evidence-based curriculum (11-15 hours content)
+- Cost-optimized AI stack with 80%+ operational savings  
+- RAG-enhanced conversations with **80% success rate validated**
+- Advanced gamification with meaningful progression system
 
-### **Mission Statement**
-"Rebuild humanity's capacity for connection by teaching the relational skills that many people have never learned" - making relationship education as engaging and accessible as language learning.
+**Mission**: "Rebuild humanity's capacity for connection by teaching the relational skills that many people have never learned"
 
 ---
 
